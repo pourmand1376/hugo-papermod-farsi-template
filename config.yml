@@ -1,0 +1,35 @@
+baseURL: 'http://aprd.ir/'
+languageCode: 'fa'
+title: 'روزنوشته‌های امیرپورمند'
+theme: "PaperMod"
+
+languages:
+    en: 
+        languageName: "farsi"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+    fa:
+        languageName: "farsi"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: WiKi
+                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+                - name: Discord
+                  url: https://discord.gg/ahpmTvhVmp
