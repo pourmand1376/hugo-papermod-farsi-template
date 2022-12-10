@@ -1,3 +1,9 @@
+<script>
+  var disqus_config = function () {
+      this.page.identifier = this.page.url;
+  };
+</script>
+
 <div id="graphcomment"></div>
 <script type="text/javascript">
 
@@ -9,7 +15,6 @@
     behaviour: {
       // HIGHLY RECOMMENDED
       //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
-      uid: window.location.href.replace('aprd.ir','')
     },
 
     // configure your variables here
