@@ -1,11 +1,12 @@
-baseURL: 'http://aprd.ir/'
+baseURL: 'https://aprd.ir/'
 languageCode: 'fa'
 defaultContentLanguage: 'fa'
 title: 'روزنوشته‌های امیرپورمند'
 theme: "PaperMod"
 
 permalinks:
-    blog: "/:title/"
+# https://gohugo.io/content-management/urls/
+    posts: "/:filename/"
 
 params:
     homeInfoParams:
@@ -17,12 +18,7 @@ params:
           url: "https://github.com/pourmand1376"
         - name: "twitter"
           url: "https://twitter.com/pourmand_amir"
-    
-    customcss:  
-        - "/static/css/custom.css"
-    #customjscssraw:
-        #- <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
-        
+     
 
 languages:
     fa:
