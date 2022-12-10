@@ -1,7 +1,7 @@
 baseURL: https://aprd.ir
 languageCode: 'fa'
 defaultContentLanguage: 'fa'
-title: 'روزنوشته‌های امیرپورمند'
+title: 'گاه‌نوشته‌های امیرپورمند'
 theme: "PaperMod"
 paginate: 10
 
@@ -20,8 +20,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: روزنوشته‌های امیرپورمند
-  description: "روزنوشته‌های امیر پورمند - یک دانشجوی هوش مصنوعی."
+  title: گاه‌نوشته‌های امیرپورمند
+  description: "گاه‌نوشته‌های امیر پورمند - یک دانشجوی هوش مصنوعی."
   keywords: ["blog", ]
   author: "امیر"
   # author: ["Me", "You"] # multiple authors
