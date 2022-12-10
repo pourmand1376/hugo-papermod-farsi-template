@@ -1,16 +1,30 @@
 baseURL: 'http://aprd.ir/'
 languageCode: 'fa'
+defaultContentLanguage: 'fa'
 title: 'روزنوشته‌های امیرپورمند'
 theme: "PaperMod"
 
+permalinks:
+    blog: "/:title/"
+
+params:
+    homeInfoParams:
+        Title: سلام امیر پورمند هستم
+        Content: اینجا برای دل خودم می‌نویسم
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/pourmand1376"
+        - name: "twitter"
+          url: "https://twitter.com/pourmand_amir"
+    
+    customcss:  
+        - "/static/css/custom.css"
+    #customjscssraw:
+        #- <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+        
+
 languages:
-    en: 
-        languageName: "farsi"
-        weight: 1
-        taxonomies:
-          category: categories
-          tag: tags
-          series: series
     fa:
         languageName: "farsi"
         weight: 1
@@ -18,18 +32,3 @@ languages:
           category: categories
           tag: tags
           series: series
-        menu:
-            main:
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: WiKi
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-                - name: Discord
-                  url: https://discord.gg/ahpmTvhVmp

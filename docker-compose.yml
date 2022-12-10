@@ -5,8 +5,8 @@ services:
   hugoapp:
     image: klakegg/hugo
     container_name: aprd-hugo
-    command: server --buildDrafts
+    command: server --buildDrafts --port 8888
     volumes: 
       - .:/src
     ports:
-      - "1313:1313"
+      - "8888:8888"

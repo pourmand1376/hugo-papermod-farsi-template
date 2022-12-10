@@ -11,3 +11,9 @@ draft: false
 
 ش سی
 ش
+
+```
+cd github
+docker pull something/somerepo
+
+```
