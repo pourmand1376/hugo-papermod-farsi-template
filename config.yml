@@ -79,15 +79,20 @@ params:
   homeInfoParams:
     Title: سلام امیر پورمند هستم
     Content: >
-        سلام اینجا قدری درباره همه چیز می‌نویسم
+          یک دانشجوی هوش مصنوعی
+
 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/pourmand_amir"
     - name: stackoverflow
-      url: "https://stackoverflow.com/"
+      url: "https://stackoverflow.com/users/4201765/amir-pourmand"
     - name: github
       url: "https://github.com/pourmand1376"
+    - name: email
+      url: "mailto:pourmand1376@gmail.com"
+    - name: site
+      url: https://amirpourmand.ir
 
   analytics:
     google:
@@ -104,7 +109,7 @@ params:
 
   editPost:
     URL: https://github.com/pourmand1376/hugo-papermod-farsi-template/tree/publish_site/content
-    Text: "Suggest Changes" # edit text
+    Text: "پیشنهاد اصلاح متن" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -137,6 +142,9 @@ permalinks:
 
 menu:
   main:
+    - identifier: about
+      name: درباره من
+      url: /about
     - identifier: FATags
       name: تگ‌ها
       url: /fatags/
