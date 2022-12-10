@@ -4,11 +4,12 @@ date: 2020-08-07 08:58:47 +03:30
 # modified: 2020-10-07 10:49:47 +03:30
 tags: ["متن_باز"]
 description: یک نرم افزار ساده جهت انتقال فایل بین تمام سیستم عامل‌ها
-image: "/Filebrowser/tech-daily-UODNyThs0vg-unsplash.jpg"
+cover:
+    image: "filebrowser.jpg"
 comments: true
 ---
 
-![](tech-daily-UODNyThs0vg-unsplash.jpg)
+![](filebrowser.jpg)
 
 مدت‌ها برای انتقال فایل بین سیستم‌ عامل‌های اندروید و ویندوز و البته بین دو سیستم ویندوزی مشکل داشتم و دنبال یه راهکار میگشتم.
 
