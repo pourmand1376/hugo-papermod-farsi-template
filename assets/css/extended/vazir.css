@@ -27,7 +27,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Vazirmatn;
-  src: url('/assets/fonts/Vazirmatn-Light.woff2') format('woff2');
+  src: url('/assets/fonts/Vazirmatn-Light.woff2') format('woff2'),
+  url('/assets/fonts/Vazirmatn-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -35,7 +36,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Vazirmatn;
-  src: url('/assets/fonts/Vazirmatn-Regular.woff2') format('woff2');
+  src: url('/assets/fonts/Vazirmatn-Regular.woff2') format('woff2'),
+  url('/assets/fonts/Vazirmatn-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -43,7 +45,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Vazirmatn;
-  src: url('/assets/fonts/Vazirmatn-Medium.woff2') format('woff2');
+  src: url('/assets/fonts/Vazirmatn-Medium.woff2') format('woff2'),
+  url('/assets/fonts/Vazirmatn-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -51,7 +54,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Vazirmatn;
-  src: url('/assets/fonts/Vazirmatn-SemiBold.woff2') format('woff2');
+  src: url('/assets/fonts/Vazirmatn-SemiBold.woff2') format('woff2'),
+  url('/assets/fonts/Vazirmatn-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -59,7 +63,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Vazirmatn;
-  src: url('/assets/fonts/Vazirmatn-Bold.woff2') format('woff2');
+  src: url('/assets/fonts/Vazirmatn-Bold.woff2') format('woff2'),
+  url('/assets/fonts/Vazirmatn-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -67,7 +72,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Vazirmatn;
-  src: url('/assets/fonts/Vazirmatn-ExtraBold.woff2') format('woff2');
+  src: url('/assets/fonts/Vazirmatn-ExtraBold.woff2') format('woff2'),
+  url('/assets/fonts/Vazirmatn-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -75,7 +81,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Vazirmatn;
-  src: url('/assets/fonts/Vazirmatn-Black.woff2') format('woff2');
+  src: url('/assets/fonts/Vazirmatn-Black.woff2') format('woff2'),
+  url('/assets/fonts/Vazirmatn-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
