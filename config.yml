@@ -3,7 +3,7 @@ languageCode: 'fa'
 defaultContentLanguage: 'fa'
 title: 'روزنوشته‌های امیرپورمند'
 theme: "PaperMod"
-paginate: 5
+paginate: 10
 
 
 enableRobotsTXT: true
