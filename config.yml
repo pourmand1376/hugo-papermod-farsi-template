@@ -21,8 +21,8 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: روزنوشته‌های امیرپورمند
-  description: "ExampleSite description"
-  keywords: [Blog, ]
+  description: "روزنوشته‌های امیر پورمند - یک دانشجوی هوش مصنوعی."
+  keywords: ["blog", ]
   author: "امیر"
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]

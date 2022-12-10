@@ -2,7 +2,7 @@
 title: نرم افزار متن باز File Browser برای انتقال فایل
 date: 2020-08-07 08:58:47 +03:30
 # modified: 2020-10-07 10:49:47 +03:30
-tags: [متن باز، انتقال فایل]
+tags: ["متن_باز"]
 description: یک نرم افزار ساده جهت انتقال فایل بین تمام سیستم عامل‌ها
 image: "/Filebrowser/tech-daily-UODNyThs0vg-unsplash.jpg"
 comments: true
