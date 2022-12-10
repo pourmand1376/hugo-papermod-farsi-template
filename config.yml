@@ -25,7 +25,7 @@ params:
   keywords: ["blog", ]
   author: "امیر"
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["opengraph/ogp.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -49,15 +49,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicons/favicon.ico"
+    favicon16x16: "favicons/favicon-16x16.png"
+    favicon32x32: "favicons/favicon-32x32.png"
+    apple_touch_icon: "favicons/apple-touch-icon.png"
+    safari_pinned_tab: "favicons/safari-pinned-tab.svg"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "خانه"
+    icon: #/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
