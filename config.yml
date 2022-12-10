@@ -20,10 +20,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: روزنوشته‌های امیرپورمند
   description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  keywords: [Blog, ]
+  author: "امیر"
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -103,7 +103,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: https://github.com/pourmand1376/hugo-papermod-farsi-template/tree/publish_site/content
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

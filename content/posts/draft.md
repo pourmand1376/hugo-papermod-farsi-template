@@ -5,7 +5,7 @@ tags: ["اولین پست"]
 author: "امیر"
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: true
 description: "توضیح این پست"
