@@ -1,9 +1,10 @@
-baseURL: https://papermod-farsi.netlify.app/
+baseURL: https://aprd.ir
 languageCode: 'fa'
 defaultContentLanguage: 'fa'
 title: 'روزنوشته‌های امیرپورمند'
 theme: "PaperMod"
 paginate: 5
+
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -12,7 +13,7 @@ buildExpired: false
 
 publishDir: "docs"
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-NKCR60T4BL
 minify:
   disableXML: true
   minifyOutput: true
@@ -33,16 +34,16 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -90,7 +91,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "0UgRGp760ZWT9RdluFfKbknSLmu2SOzDh5TJvTHwKjE"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
