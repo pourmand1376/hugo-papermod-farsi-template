@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2022/Login-Sharif.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2022/Login-Sharif.md",
+                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2022/Login-Sharif.md",
+                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2022/Login-Sharif.md"
+                "file": "content/about.md"
               }
             }
           }
@@ -137,5 +137,7 @@
     "collapsed": true
   },
   "active": "255bd9d2984a14f5",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "content/posts/2022/Login-Sharif.md"
+  ]
 }
