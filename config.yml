@@ -89,8 +89,8 @@ params:
       url: "https://stackoverflow.com/users/4201765/amir-pourmand"
     - name: github
       url: "https://github.com/pourmand1376"
-    - name: email
-      url: "mailto:pourmand1376@gmail.com"
+    #- name: email
+    #  url: "mailto:pourmand1376@gmail.com"
     - name: site
       url: https://amirpourmand.ir
 
