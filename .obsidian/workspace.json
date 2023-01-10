@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2021/toefl-exam-experience.md",
+                "file": "content/posts/2023/proposal-seminar-thesis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2021/toefl-exam-experience.md",
+                "file": "content/posts/2023/proposal-seminar-thesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2021/toefl-exam-experience.md",
+                "file": "content/posts/2023/proposal-seminar-thesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2021/toefl-exam-experience.md"
+                "file": "content/posts/2023/proposal-seminar-thesis.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "216a0b663f94b509",
   "lastOpenFiles": [
+    "content/posts/2021/toefl-exam-experience.md",
     "content/posts/2023/proposal-seminar-thesis.md",
     "content/posts/2021/how-to-download-articles-and-books.md",
     "content/posts/2021/Before-and-after-konkur.md",
