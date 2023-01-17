@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2023/ram-rom-sd-card-internal-memory.md",
+                "file": "content/posts/2023/ram-rom-sdcard-internal-memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2023/ram-rom-sd-card-internal-memory.md",
+                "file": "content/posts/2023/ram-rom-sdcard-internal-memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2023/ram-rom-sd-card-internal-memory.md",
+                "file": "content/posts/2023/ram-rom-sdcard-internal-memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2023/ram-rom-sd-card-internal-memory.md"
+                "file": "content/posts/2023/ram-rom-sdcard-internal-memory.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "c69821537d8019b9",
   "lastOpenFiles": [
     "content/posts/2023/proposal-seminar-thesis.md",
-    "content/posts/2023/ram-rom-sd-card-internal-memory.md",
+    "content/posts/2023/ram-rom-sdcard-internal-memory.md",
     "content/about.md",
     "content/posts/_index.md",
     "content/posts/2021/toefl-exam-experience.md",
