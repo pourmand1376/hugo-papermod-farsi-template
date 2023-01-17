@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c69821537d8019b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2023/ram-rom-sd-card-internal-memory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/2023/ram-rom-sd-card-internal-memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/2023/ram-rom-sd-card-internal-memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/about.md"
+                "file": "content/posts/2023/ram-rom-sd-card-internal-memory.md"
               }
             }
           }
@@ -146,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "216a0b663f94b509",
+  "active": "c69821537d8019b9",
   "lastOpenFiles": [
-    "content/posts/_index.md",
     "content/posts/2023/proposal-seminar-thesis.md",
+    "content/posts/2023/ram-rom-sd-card-internal-memory.md",
+    "content/about.md",
+    "content/posts/_index.md",
     "content/posts/2021/toefl-exam-experience.md",
     "content/posts/2021/how-to-download-articles-and-books.md",
     "content/posts/2021/Before-and-after-konkur.md",
     "content/posts/2022/questions-olympiad-konkur.md",
     "content/posts/2022/Login-Sharif.md",
-    "content/posts/2022/sharif-dormitory.md",
-    "content/posts/2021/olympiad-computer-engineering.md",
-    "content/about.md"
+    "content/posts/2022/sharif-dormitory.md"
   ]
 }
