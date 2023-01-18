@@ -17,6 +17,8 @@ comments: true
 ## اسکریپت لاگین
 من مدت‌هاست یه [اسکریپتی](https://gist.github.com/pourmand1376/965625a56c9e8ba4a82cd6f7dd98ed80) نوشتم که لاگین داخل دانشگاه رو با ترمینال انجام میده. اسکریپت bash هست که روی لینوکس و مک بصورت native کار میده. روی windows با نصب [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) کار میده و روی اندروید با [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US) جواب میده. 
 
+{{< gist pourmand1376 965625a56c9e8ba4a82cd6f7dd98ed80 >}}
+
 روش پیشنهادی من اینه که یه فایل به نام مثلا ‍`.sharif` ایجاد کنید و کدها رو داخل اون بذارید. بعد از اون `YourUsername` و `YourPassword` رو به یوزر پس خودتون تغییر بدید. حالا این فایل را باید داخل `.bashrc` یا `.zshrc` بسته به نوع شل‌ای که دارید لود کنید. به این صورت:
 
 ```bash
