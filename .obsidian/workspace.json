@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "69dcd8d1066812d2",
+        "id": "0b93b947edfabd73",
         "type": "tabs",
         "children": [
           {
-            "id": "38f4d3ba14247dad",
+            "id": "0745d53f8a06c54b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2022/Login-Sharif.md",
+                "file": "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2022/Login-Sharif.md",
+                "file": "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2022/Login-Sharif.md",
+                "file": "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2022/Login-Sharif.md"
+                "file": "content/posts/2023/ram-rom-sdcard-internal-memory/index.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38f4d3ba14247dad",
+  "active": "0745d53f8a06c54b",
   "lastOpenFiles": [
+    "content/posts/2021/olympiad-computer-engineering/index.md",
+    "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
+    "content/posts/2023/ram-rom-sdcard-internal-memory/desktop-ram.jpg",
     "content/posts/2023/ram-rom-sdcard-internal-memory.md",
     "content/posts/2021/how-to-download-articles-and-books.md",
     "content/posts/2021/Before-and-after-konkur.md",
     "content/posts/2023/proposal-seminar-thesis.md",
     "content/about.md",
     "content/posts/_index.md",
-    "content/posts/2021/toefl-exam-experience.md",
-    "content/posts/2022/questions-olympiad-konkur.md",
-    "content/posts/2022/Login-Sharif.md",
-    "content/posts/2022/sharif-dormitory.md"
+    "content/posts/2021/toefl-exam-experience.md"
   ]
 }
