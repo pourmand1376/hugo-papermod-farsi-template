@@ -4,7 +4,10 @@ date: 2023-01-09 00:00:00 +03:30
 fatags: ["دانشگاه_شریف","تجربه"]
 description: نکاتی در مورد مسیر آکادمیک در دوران ارشد
 comments: true
+cover: 
+  image: proposal-seminar-thesis/cover-paper.jpg
 ---
+![proposal- Image by cookie_studio on Freepik](cover-paper.jpg)
 
 این پست رو به عنوان پیش نویس می‌نویسم تا بعدا بیشتر فکر کنم و تکمیلش کنم. 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
+                "file": "content/posts/2022/Login-Sharif/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
+                "file": "content/posts/2022/Login-Sharif/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
+                "file": "content/posts/2022/Login-Sharif/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2023/ram-rom-sdcard-internal-memory/index.md"
+                "file": "content/posts/2022/Login-Sharif/index.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "0745d53f8a06c54b",
   "lastOpenFiles": [
-    "content/posts/2021/olympiad-computer-engineering/index.md",
     "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
+    "content/posts/2021/olympiad-computer-engineering/index.md",
     "content/posts/2023/ram-rom-sdcard-internal-memory/desktop-ram.jpg",
     "content/posts/2023/ram-rom-sdcard-internal-memory.md",
     "content/posts/2021/how-to-download-articles-and-books.md",

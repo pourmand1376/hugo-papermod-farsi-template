@@ -5,6 +5,8 @@ date: 2022-10-24 12:56:00 +03:30
 fatags: ["دانشگاه_شریف"]
 description: اسکریپت لاگین برای شریف، طریقه حل مشکل داکر و البته DNS دستی
 comments: true
+cover:
+    image: login-sharif/sharif-internet.jpg
 ---
 
 ## سرعت اینترنت
