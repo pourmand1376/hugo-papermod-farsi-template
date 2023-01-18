@@ -73,3 +73,8 @@ sudo echo '172.17.1.214 net2.sharif.edu' >> /etc/hosts
 پی‌نوشت: داکر روی ویندوز مشکلی بوجود نمیاره و این مشکل روی ubuntu پیش میاد که البته بسیار رایجه. 
 
 [networking - can't connect to internet after installing docker in Ubuntu over specific networks - Super User](https://superuser.com/a/1699305/751605)
+
+##  لینک‌های مفید
+جهت چک کردن حجم باقیمانده اینترنت شریف از [سامانه مدیریت ترافیک اینترنت شریف](https://bw.ictc.sharif.edu/login) استفاده کنید. در سایت زیر هم می‌تونید بفهمید، با توجه به این که تو کدوم مقطع تحصیل می‌کنید، اینترنت به چه صورتی تخصیص پیدا می‌کنه و کی حجم‌تون ریست میشه. 
+
+[شناسه شریف و اینترنت - مرکز فناوری اطلاعات و ارتباطات - پورتال دانشگاه شریف](https://ictc.sharif.edu/%D8%B4%D9%86%D8%A7%D8%B3%D9%87-%D8%B4%D8%B1%DB%8C%D9%81-%D9%88-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA)

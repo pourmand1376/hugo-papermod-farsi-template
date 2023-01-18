@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c3e33e5d332d5df8",
+        "id": "69dcd8d1066812d2",
         "type": "tabs",
         "children": [
           {
-            "id": "c69821537d8019b9",
+            "id": "38f4d3ba14247dad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2023/ram-rom-sdcard-internal-memory.md",
+                "file": "content/posts/2022/Login-Sharif.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2023/ram-rom-sdcard-internal-memory.md",
+                "file": "content/posts/2022/Login-Sharif.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2023/ram-rom-sdcard-internal-memory.md",
+                "file": "content/posts/2022/Login-Sharif.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2023/ram-rom-sdcard-internal-memory.md"
+                "file": "content/posts/2022/Login-Sharif.md"
               }
             }
           }
@@ -146,15 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c69821537d8019b9",
+  "active": "38f4d3ba14247dad",
   "lastOpenFiles": [
-    "content/posts/2023/proposal-seminar-thesis.md",
     "content/posts/2023/ram-rom-sdcard-internal-memory.md",
+    "content/posts/2021/how-to-download-articles-and-books.md",
+    "content/posts/2021/Before-and-after-konkur.md",
+    "content/posts/2023/proposal-seminar-thesis.md",
     "content/about.md",
     "content/posts/_index.md",
     "content/posts/2021/toefl-exam-experience.md",
-    "content/posts/2021/how-to-download-articles-and-books.md",
-    "content/posts/2021/Before-and-after-konkur.md",
     "content/posts/2022/questions-olympiad-konkur.md",
     "content/posts/2022/Login-Sharif.md",
     "content/posts/2022/sharif-dormitory.md"
