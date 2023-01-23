@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0b93b947edfabd73",
+        "id": "71a397a728bf379f",
         "type": "tabs",
         "children": [
           {
-            "id": "0745d53f8a06c54b",
+            "id": "778056c0e2a47e4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2022/Login-Sharif/index.md",
+                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2022/Login-Sharif/index.md",
+                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2022/Login-Sharif/index.md",
+                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2022/Login-Sharif/index.md"
+                "file": "content/posts/2023/proposal-seminar-thesis/index.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0745d53f8a06c54b",
+  "active": "778056c0e2a47e4a",
   "lastOpenFiles": [
+    "content/posts/2022/sharif-dormitory/index.md",
     "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
+    "content/posts/2022/Login-Sharif/index.md",
     "content/posts/2021/olympiad-computer-engineering/index.md",
     "content/posts/2023/ram-rom-sdcard-internal-memory/desktop-ram.jpg",
     "content/posts/2023/ram-rom-sdcard-internal-memory.md",
     "content/posts/2021/how-to-download-articles-and-books.md",
     "content/posts/2021/Before-and-after-konkur.md",
     "content/posts/2023/proposal-seminar-thesis.md",
-    "content/about.md",
-    "content/posts/_index.md",
-    "content/posts/2021/toefl-exam-experience.md"
+    "content/about.md"
   ]
 }
