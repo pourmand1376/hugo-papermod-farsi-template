@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "be8f09837290ac32",
+        "id": "3b6dd8fc82241d6a",
         "type": "tabs",
         "children": [
           {
-            "id": "9585928c441d0ace",
+            "id": "a17d96afcdfc747c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2022/sharif-dormitory/index.md",
+                "file": "content/posts/2021/how-to-download-articles-and-books/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2022/sharif-dormitory/index.md",
+                "file": "content/posts/2021/how-to-download-articles-and-books/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2022/sharif-dormitory/index.md",
+                "file": "content/posts/2021/how-to-download-articles-and-books/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2022/sharif-dormitory/index.md"
+                "file": "content/posts/2021/how-to-download-articles-and-books/index.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9585928c441d0ace",
+  "active": "a17d96afcdfc747c",
   "lastOpenFiles": [
-    "content/posts/2023/proposal-seminar-thesis/index.md",
     "content/posts/2022/sharif-dormitory/index.md",
+    "content/posts/2023/proposal-seminar-thesis/index.md",
     "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
     "content/posts/2022/Login-Sharif/index.md",
     "content/posts/2021/olympiad-computer-engineering/index.md",
