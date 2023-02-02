@@ -1,3 +1,4 @@
 {
-  "rightToLeft": true
+  "rightToLeft": true,
+  "alwaysUpdateLinks": true
 }
