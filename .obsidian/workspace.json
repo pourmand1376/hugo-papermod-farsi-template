@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/country-comparison-for-citizens/index.md",
+                "file": "content/country-comparison-for-immigrants/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/country-comparison-for-citizens/index.md",
+                "file": "content/country-comparison-for-immigrants/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/country-comparison-for-citizens/index.md",
+                "file": "content/country-comparison-for-immigrants/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/country-comparison-for-citizens/index.md"
+                "file": "content/country-comparison-for-immigrants/index.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "dc32ae33440d59fd",
   "lastOpenFiles": [
+    "content/country-comparison-for-citizens/index.md",
     "content/country-comparison-for-immigrants/index.md",
     "content/posts/2023/proposal-seminar-thesis/index.md",
     "content/bank.md",
@@ -156,7 +157,6 @@
     "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
     "content/posts/2022/Login-Sharif/index.md",
     "content/posts/2021/olympiad-computer-engineering/index.md",
-    "content/posts/2023/ram-rom-sdcard-internal-memory/desktop-ram.jpg",
-    "content/posts/2023/ram-rom-sdcard-internal-memory.md"
+    "content/posts/2023/ram-rom-sdcard-internal-memory/desktop-ram.jpg"
   ]
 }
