@@ -22,7 +22,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: گاه‌نوشته‌های امیرپورمند
   description: "گاه‌نوشته‌های امیر پورمند - یک دانشجوی هوش مصنوعی."
-  keywords: ["blog", ]
+  keywords: ["blog", "experience", "personal blog", "amir pourmand"]
   author: "امیر"
   # author: ["Me", "You"] # multiple authors
   images: ["opengraph/ogp.png"]
@@ -83,6 +83,8 @@ params:
 
 
   socialIcons:
+    - name: rss
+      url: https://aprd.ir/index.xml
     - name: twitter
       url: "https://twitter.com/pourmand_amir"
     - name: stackoverflow

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7ea1edb38cff7cdb",
+        "id": "a3bd4e9d29ecbcc7",
         "type": "tabs",
         "children": [
           {
-            "id": "228e5d43418ee09b",
+            "id": "7dfa049079c4a079",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/posts/2023/proposal-seminar-thesis/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "228e5d43418ee09b",
+  "active": "631f7ccf18400ee6",
   "lastOpenFiles": [
-    "content/posts/2023/proposal-seminar-thesis/Seminar_Grade_Form.pdf",
     "content/posts/2023/proposal-seminar-thesis/index.md",
+    "content/posts/2023/proposal-seminar-thesis/Seminar_Grade_Form.pdf",
     "content/posts/2023/proposal-seminar-thesis/IT-Seminar-Introduction-1401.pdf",
     "content/country-comparison-for-immigrants/index.md",
     "content/posts/2022/Login-Sharif/index.md",
