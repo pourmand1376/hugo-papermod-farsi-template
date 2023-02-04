@@ -11,8 +11,12 @@
             "id": "7dfa049079c4a079",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/country-comparison-for-immigrants/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/country-comparison-for-immigrants/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/country-comparison-for-immigrants/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/country-comparison-for-immigrants/index.md"
+              }
             }
           }
         ]
@@ -138,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "631f7ccf18400ee6",
+  "active": "7dfa049079c4a079",
   "lastOpenFiles": [
     "content/posts/2023/proposal-seminar-thesis/index.md",
     "content/posts/2023/proposal-seminar-thesis/Seminar_Grade_Form.pdf",
