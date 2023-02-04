@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2022/Login-Sharif/index.md",
+                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 340.5
   },
   "right": {
     "id": "d962f4e1951a29e2",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2022/Login-Sharif/index.md",
+                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2022/Login-Sharif/index.md",
+                "file": "content/posts/2023/proposal-seminar-thesis/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2022/Login-Sharif/index.md"
+                "file": "content/posts/2023/proposal-seminar-thesis/index.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "228e5d43418ee09b",
   "lastOpenFiles": [
-    "content/posts/2022/Login-Sharif/sharif-email.png",
-    "content/posts/2022/Login-Sharif/index.md",
-    "content/country-comparison-for-immigrants/index.md",
-    "content/country-comparison-for-citizens/index.md",
+    "content/posts/2023/proposal-seminar-thesis/IT-Seminar-Introduction-1401.pdf",
     "content/posts/2023/proposal-seminar-thesis/index.md",
+    "content/country-comparison-for-immigrants/index.md",
+    "content/posts/2022/Login-Sharif/index.md",
+    "content/posts/2022/Login-Sharif/sharif-email.png",
+    "content/country-comparison-for-citizens/index.md",
     "content/bank.md",
     "content/posts/2021/how-to-download-articles-and-books/index.md",
     "content/posts/2022/sharif-dormitory/index.md",
-    "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
-    "content/posts/2021/olympiad-computer-engineering/index.md"
+    "content/posts/2023/ram-rom-sdcard-internal-memory/index.md"
   ]
 }
