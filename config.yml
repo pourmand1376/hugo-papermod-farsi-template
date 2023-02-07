@@ -10,7 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-publishDir: "docs"
+publishDir: "public"
 
 googleAnalytics: UA-123-45
 minify:
