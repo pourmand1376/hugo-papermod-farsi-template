@@ -8,3 +8,5 @@ For now, Hugo has some problems with Github Actions. You should set your base ur
 `<your-username>.github.io` not `<you-username>github.io/repo_path`. 
 
 You should also name your repository with `<your-username>.github.io`.
+
+If you want to use this with netlify. You do not need any configuration. Just remember to set publishdir to `public`. 
