@@ -1,3 +1,6 @@
 # hugo-papermod-farsi-template
 
-این تمپلت روی گیت‌هاب پیج کار نمي‌کند و روی نتلیفای تست شده است. 
+To Setup this template:
+- Fork this repo
+- Enable Github Actions
+- Go to settings > Pages > Build and Deployment > Branch > master
