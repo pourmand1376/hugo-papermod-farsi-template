@@ -10,3 +10,9 @@ For now, Hugo has some problems with Github Actions for example, the font doesn'
 You should also name your repository with `<your-username>.github.io`.
 
 If you want to use this with netlify. You do not need any configuration. Just remember to set publishdir to `public`. 
+
+If you want to clone this repo:
+```
+git clone <repo_url>
+git submodule update --init --recursive # clone submodules
+```
