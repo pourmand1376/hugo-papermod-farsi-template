@@ -7,3 +7,4 @@ Also, remember to enable github actions from actions tab.
 For now, Hugo has some problems with Github Actions. You should set your base url like this:
 `<your-username>.github.io` not `<you-username>github.io/repo_path`. 
 
+You should also name your repository with `<your-username>.github.io`.
