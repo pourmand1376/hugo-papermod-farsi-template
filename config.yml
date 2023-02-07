@@ -1,7 +1,7 @@
 baseURL: https://pourmand1376.github.io/hugo-papermod-farsi-template
 languageCode: 'fa'
 defaultContentLanguage: 'fa'
-title: 'روزنوشته‌های امیرپورمند'
+title: 'یک قالب وبلاگ'
 theme: "PaperMod"
 paginate: 5
 

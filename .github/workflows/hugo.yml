@@ -1,4 +1,5 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
+# https://dev.to/github/how-to-host-a-static-nextjs-site-on-github-pages-4pe0
 name: Deploy Hugo site to Pages
 
 on:
