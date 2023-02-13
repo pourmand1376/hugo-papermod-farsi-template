@@ -59,6 +59,8 @@ comments: true
 
 > https://sci-hub.se/my-doi
 
+یک extension کروم هم برای سای‌هاب هست که می‌تونید استفاده کنید. 
+[Chrome Web Store - Extensions](https://chrome.google.com/webstore/detail/sci-hub-x-now/gmmnidkpkgiohfdoenhpghbilmeeagjj)
 
 #### راه سوم
 
