@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2022/questions-olympiad-konkur/index.md",
+                "file": "content/country-comparison-for-immigrants/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81006172c2fdc953",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2021/olympiad-computer-engineering/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2022/questions-olympiad-konkur/index.md",
+                "file": "content/posts/2021/olympiad-computer-engineering/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2022/questions-olympiad-konkur/index.md",
+                "file": "content/posts/2021/olympiad-computer-engineering/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2022/questions-olympiad-konkur/index.md"
+                "file": "content/posts/2021/olympiad-computer-engineering/index.md"
               }
             }
           }
@@ -146,12 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7dfa049079c4a079",
+  "active": "81006172c2fdc953",
   "lastOpenFiles": [
-    "content/posts/2023/proposal-seminar-thesis/index.md",
-    "content/posts/2022/questions-olympiad-konkur/index.md",
-    "content/posts/2021/olympiad-computer-engineering/index.md",
     "content/country-comparison-for-immigrants/index.md",
+    "content/posts/2021/olympiad-computer-engineering/index.md",
+    "content/posts/2022/questions-olympiad-konkur/index.md",
+    "content/posts/2023/proposal-seminar-thesis/index.md",
     "content/country-comparison-for-citizens/index.md",
     "content/posts/2021/how-to-download-articles-and-books/index.md",
     "content/posts/2022/sharif-dormitory/index.md",
