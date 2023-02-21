@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e0ee3fb055995695",
+        "id": "b496db2f76ed7035",
         "type": "tabs",
         "children": [
           {
-            "id": "6fd54b73ee41f14d",
+            "id": "8bdd252c0b8e2004",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2021/olympiad-computer-engineering/index.md",
+                "file": "content/country-comparison-for-immigrants/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "789142a9dbc0ae64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2023/personal-development-bahman-1400/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2021/olympiad-computer-engineering/index.md",
+                "file": "content/posts/2023/personal-development-bahman-1400/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/2021/olympiad-computer-engineering/index.md",
+                "file": "content/posts/2023/personal-development-bahman-1400/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2021/olympiad-computer-engineering/index.md"
+                "file": "content/posts/2023/personal-development-bahman-1400/index.md"
               }
             }
           }
@@ -146,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fd54b73ee41f14d",
+  "active": "789142a9dbc0ae64",
   "lastOpenFiles": [
     "content/country-comparison-for-immigrants/index.md",
+    "content/posts/2023/personal-development-bahman-1400/index.md",
+    "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
     "content/posts/2021/olympiad-computer-engineering/index.md",
     "content/posts/2022/questions-olympiad-konkur/index.md",
     "content/posts/2023/proposal-seminar-thesis/index.md",
     "content/country-comparison-for-citizens/index.md",
     "content/posts/2021/how-to-download-articles-and-books/index.md",
     "content/posts/2022/sharif-dormitory/index.md",
-    "content/posts/2023/proposal-seminar-thesis/Seminar_Grade_Form.pdf",
-    "content/posts/2023/proposal-seminar-thesis/IT-Seminar-Introduction-1401.pdf",
-    "content/posts/2022/Login-Sharif/index.md"
+    "content/posts/2023/proposal-seminar-thesis/Seminar_Grade_Form.pdf"
   ]
 }
