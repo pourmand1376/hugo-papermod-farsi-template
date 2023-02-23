@@ -81,5 +81,9 @@ comments: true
 -[Library Genesis](https://libgen.is/)
 [Semanta](https://semanta.ir/)
 
+مدت‌ها بعد از این نوشته مطلب زیر رو پیدا کردم که انصافا همه حرف‌ها من + کلی حرف مفید دیگه رو به اشتراک می‌ذاره. حتما توصیه می‌کنم.
+
+[How to Access Academic Studies](https://blog.yaelwrites.com/how-to-bypass-paywalls-to-access-academic-studies/)
+
 لطفا اگر شما هم منبعی برای تهیه مقالات و کتاب‌ها میشناسید به اشتراک بذارید.
 
