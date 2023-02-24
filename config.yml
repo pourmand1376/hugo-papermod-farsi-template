@@ -155,6 +155,10 @@ menu:
       name: آرشیو
       url: /archives/
       weight: 30
+    - identifier: search
+      name: جستجو
+      url: /search/
+      weight: 40
 
 languages:
     fa:
@@ -165,3 +169,9 @@ languages:
           category: categories
           tag: fatags
           series: series
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
