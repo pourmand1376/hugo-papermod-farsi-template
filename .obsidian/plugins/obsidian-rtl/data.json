@@ -1,5 +1,7 @@
 {
-  "fileDirections": {},
+  "fileDirections": {
+    "content/posts/2021/toefl-exam-experience/index.md": "auto"
+  },
   "defaultDirection": "rtl",
   "rememberPerFile": true,
   "setNoteTitleDirection": true,
