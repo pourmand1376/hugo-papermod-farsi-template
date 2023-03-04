@@ -1,4 +1,5 @@
 {
   "rightToLeft": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }
