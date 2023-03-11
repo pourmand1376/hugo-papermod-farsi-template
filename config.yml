@@ -85,8 +85,8 @@ params:
   socialIcons:
     - name: rss
       url: https://aprd.ir/index.xml
-    - name: twitter
-      url: "https://twitter.com/pourmand_amir"
+    # - name: twitter
+    #   url: "https://twitter.com/pourmand_amir"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/4201765/amir-pourmand"
     - name: github
