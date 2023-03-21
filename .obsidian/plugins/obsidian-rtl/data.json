@@ -1,9 +1,10 @@
 {
   "fileDirections": {
     "content/posts/2021/toefl-exam-experience/index.md": "auto",
-    "content/posts/2023/sleep-interpretation/index.md": "auto"
+    "content/posts/2023/sleep-interpretation/index.md": "auto",
+    "content/posts/2023/personal-development-esfand-1401/index.md": "auto"
   },
-  "defaultDirection": "rtl",
+  "defaultDirection": "auto",
   "rememberPerFile": true,
   "setNoteTitleDirection": true,
   "setYamlDirection": false,
