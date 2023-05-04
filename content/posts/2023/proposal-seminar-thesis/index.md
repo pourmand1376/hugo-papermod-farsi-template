@@ -1,12 +1,13 @@
 ---
 title: پروپوزال،‌ سمینار و پایان‌نامه ارشد
-date: 2023-01-09 00:00:00 +03:
+date: 2023-01-09 00:00:00
 modified: 2023-05-04 00:00:00
-fatags: ["دانشگاه_شریف","تجربه"]
+fatags: ["دانشگاه_شریف","آکادمیک"]
 description: نکاتی در مورد مسیر آکادمیک در دوران ارشد
 comments: true
 cover: 
   image: proposal-seminar-thesis/cover-paper.jpg
+
 ---
 ![proposal- Image by cookie_studio on Freepik](cover-paper.jpg)
 

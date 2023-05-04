@@ -1,0 +1,13 @@
+.post-footer h3 {
+    margin: 2em 0 1.2em;
+  }
+  
+  .post-footer .related ul  {
+      padding-inline-start: 10px;
+      padding-bottom: 30px;
+  }
+  
+  .post-footer .related a:hover {
+    box-shadow: 0 1px;
+  }
+  
