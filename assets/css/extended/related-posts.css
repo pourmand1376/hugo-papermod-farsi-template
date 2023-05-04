@@ -4,7 +4,7 @@
   
   .post-footer .related ul  {
       padding-inline-start: 10px;
-      padding-bottom: 30px;
+      margin-bottom: 3em;
   }
   
   .post-footer .related a:hover {
