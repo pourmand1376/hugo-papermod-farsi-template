@@ -1,0 +1,203 @@
+{
+  "version": "1.0.0",
+  "onOpenPreferNewTab": true,
+  "alwaysNewTabForSymbols": false,
+  "useActiveTabForSymbolsOnMobile": false,
+  "symbolsInLineOrder": true,
+  "editorListCommand": "edt ",
+  "symbolListCommand": "@",
+  "workspaceListCommand": "+",
+  "headingsListCommand": "#",
+  "bookmarksListCommand": "'",
+  "commandListCommand": ">",
+  "relatedItemsListCommand": "~",
+  "strictHeadingsOnly": false,
+  "searchAllHeadings": true,
+  "headingsSearchDebounceMilli": 250,
+  "excludeViewTypes": [
+    "empty"
+  ],
+  "referenceViews": [
+    "backlink",
+    "localgraph",
+    "outgoing-link",
+    "outline"
+  ],
+  "limit": 50,
+  "includeSidePanelViewTypes": [
+    "backlink",
+    "image",
+    "markdown",
+    "pdf"
+  ],
+  "enabledSymbolTypes": {
+    "1": true,
+    "2": true,
+    "4": true,
+    "8": true,
+    "16": true
+  },
+  "selectNearestHeading": true,
+  "excludeFolders": [],
+  "excludeLinkSubTypes": 0,
+  "excludeRelatedFolders": [
+    ""
+  ],
+  "excludeOpenRelatedFiles": false,
+  "excludeObsidianIgnoredFiles": false,
+  "shouldSearchFilenames": false,
+  "pathDisplayFormat": 3,
+  "hidePathIfRoot": true,
+  "enabledRelatedItems": [
+    "disk-location",
+    "backlink",
+    "outgoing-link"
+  ],
+  "showOptionalIndicatorIcons": true,
+  "overrideStandardModeBehaviors": true,
+  "enabledRibbonCommands": [
+    "HeadingsList",
+    "SymbolList"
+  ],
+  "fileExtAllowList": [
+    "canvas"
+  ],
+  "enableMatchPriorityAdjustments": false,
+  "matchPriorityAdjustments": {
+    "isOpenInEditor": 0,
+    "isBookmarked": 0,
+    "isRecent": 0,
+    "file": 0,
+    "alias": 0,
+    "h1": 0
+  },
+  "quickFilters": {
+    "resetKey": "0",
+    "keyList": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "modifiers": [
+      "Ctrl",
+      "Alt"
+    ],
+    "facetList": [
+      {
+        "id": "Heading",
+        "mode": 4,
+        "label": "headings",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "Tag",
+        "mode": 4,
+        "label": "tags",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "Callout",
+        "mode": 4,
+        "label": "callouts",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "Link",
+        "mode": 4,
+        "label": "links",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "Embed",
+        "mode": 4,
+        "label": "embeds",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "canvas-node-file",
+        "mode": 4,
+        "label": "file cards",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "canvas-node-text",
+        "mode": 4,
+        "label": "text cards",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "canvas-node-link",
+        "mode": 4,
+        "label": "link cards",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "canvas-node-group",
+        "mode": 4,
+        "label": "groups",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "backlink",
+        "mode": 128,
+        "label": "backlinks",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "outgoing-link",
+        "mode": 128,
+        "label": "outgoing links",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "disk-location",
+        "mode": 128,
+        "label": "disk location",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "bookmarks-file",
+        "mode": 32,
+        "label": "files",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "bookmarks-folder",
+        "mode": 32,
+        "label": "folders",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "bookmarks-search",
+        "mode": 32,
+        "label": "searches",
+        "isActive": false,
+        "isAvailable": true
+      }
+    ],
+    "shouldResetActiveFacets": false,
+    "shouldShowFacetInstructions": true
+  },
+  "preserveCommandPaletteLastInput": false,
+  "preserveQuickSwitcherLastInput": false
+}
