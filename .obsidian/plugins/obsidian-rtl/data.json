@@ -2,7 +2,8 @@
   "fileDirections": {
     "content/posts/2021/toefl-exam-experience/index.md": "auto",
     "content/posts/2023/sleep-interpretation/index.md": "auto",
-    "content/posts/2023/personal-development-esfand-1401/index.md": "auto"
+    "content/posts/2023/personal-development-esfand-1401/index.md": "auto",
+    "content/posts/2023/country-comparison-for-immigrants/index.md": "rtl"
   },
   "defaultDirection": "auto",
   "rememberPerFile": true,
