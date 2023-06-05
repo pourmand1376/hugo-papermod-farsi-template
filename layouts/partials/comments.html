@@ -13,3 +13,19 @@
         crossorigin="anonymous"
         async>
 </script>
+<script>
+        // Get the script element
+const scriptElement = document.querySelector('script[src="https://giscus.app/client.js"]');
+
+// Set the value of the data-theme attribute to the value stored in localStorage
+scriptElement.setAttribute('data-theme', localStorage.getItem('pref-theme'));
+
+// Get the theme-toggle switch element
+const themeToggleSwitch = document.querySelector('#theme-toggle');
+
+// Add a click event listener to the switch
+themeToggleSwitch.addEventListener('click', function() {
+  // Reload the JavaScript file by reloading the page
+  location.reload();
+});
+</script>
