@@ -71,6 +71,9 @@ comments: true
 
 [آموزش کامپیوتر به زبان ساده - چهارراه کامپیوتر](https://4rahecomputer.com/)
 
+[DevOps Hobbies](https://www.youtube.com/channel/UCve--OvdZ5YROq4BEKyedCw)
+یک کانال یوتیوب فارسی بسیار مفید در حوزه تکنولوژی که مباحثی DevOps رو توضیح میده. 
+
 [کانال خبری، تحلیلی و انتقادی با موضوع فناوری اطلاعات و امنیت (کانال پینگ)](https://t.me/PingChannel)
 
 این کانال تو حوزه امنیت دیجیتال مطالب خوب و مفیدی می‌نویسه.
