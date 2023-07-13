@@ -93,6 +93,8 @@ params:
       url: "https://github.com/pourmand1376"
     - name: telegram
       url: "https://t.me/pourmand_amir"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/amir-pourmand"
     - name: site
       url: https://amirpourmand.ir
 
