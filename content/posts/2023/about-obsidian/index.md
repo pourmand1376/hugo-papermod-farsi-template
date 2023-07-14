@@ -1,5 +1,5 @@
 ---
-title: در ستایش نوت‌برداری Obsidian
+title: در ستایش نرم‌افزار Obsidian
 date: 2023-07-14 20:00:00 +03:30
 fatags: ["نرم‌افزار", "اندروید"]
 comments: true
