@@ -33,7 +33,7 @@ comments: true
 
 نرم‌افزار Obsidian به نظر من همچین چیزی هست. 
 
-![sample][sample.png#center]
+![sample](sample.png#center)
 
 شاید دیدن یک دمو از این نرم‌افزار بهتر از هر چیزی بهتون دید بده. کافیه تو یوتیوب سرچ کنید. [حامد](https://hamed.blog/second-brain/) هم قبلاً در این باره پستی نوشته. [این ویدئو](https://www.aparat.com/v/L3pvk) رو هم تو آپارات پیدا کردم. می‌تونید از اینجا دید بگیرید که نرم‌افزار چیه.
 
