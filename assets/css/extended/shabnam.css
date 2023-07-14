@@ -11,8 +11,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 @font-face { 
   font-family: Shabnam;
   src: 
-  url('/fonts/Shabnam-Thin.woff2') format('woff2'),
-  url('/fonts/Shabnam-Thin.ttf') format('truetype');
+  url('/fonts/Shabnam/Shabnam-Thin.woff2') format('woff2'),
+  url('/fonts/Shabnam/Shabnam-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -20,8 +20,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Shabnam;
-  src: url('/fonts/Shabnam-Light.woff2') format('woff2'),
-  url('/fonts/Shabnam-Light.ttf') format('truetype');
+  src: url('/fonts/Shabnam/Shabnam-Light.woff2') format('woff2'),
+  url('/fonts/Shabnam/Shabnam-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -29,8 +29,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Shabnam;
-  src: url('/fonts/Shabnam-Regular.woff2') format('woff2'),
-  url('/fonts/Shabnam-Regular.ttf') format('truetype');
+  src: url('/fonts/Shabnam/Shabnam-Regular.woff2') format('woff2'),
+  url('/fonts/Shabnam/Shabnam-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -38,8 +38,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Shabnam;
-  src: url('/fonts/Shabnam-Medium.woff2') format('woff2'),
-  url('/fonts/Shabnam-Medium.ttf') format('truetype');
+  src: url('/fonts/Shabnam/Shabnam-Medium.woff2') format('woff2'),
+  url('/fonts/Shabnam/Shabnam-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -48,8 +48,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 @font-face {
   font-family: Shabnam;
-  src: url('/fonts/Shabnam-Bold.woff2') format('woff2'),
-  url('/fonts/Shabnam-Bold.ttf') format('truetype');
+  src: url('/fonts/Shabnam/Shabnam-Bold.woff2') format('woff2'),
+  url('/fonts/Shabnam/Shabnam-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
