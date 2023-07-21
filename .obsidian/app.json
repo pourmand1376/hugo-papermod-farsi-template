@@ -1,5 +1,6 @@
 {
   "rightToLeft": false,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "useMarkdownLinks": true
 }

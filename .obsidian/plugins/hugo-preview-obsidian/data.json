@@ -1,5 +1,5 @@
 {
   "hugoCommandPath": "hugo",
-  "port": "1515",
-  "command": ""
+  "port": "1313",
+  "command": "hugo serve -D"
 }
