@@ -40,7 +40,7 @@ fatags: ["گزارش","توسعه_مهارتی"]
 
 بگذریم. مهم‌ترین دوره‌هایی که این ماه گذروندم این‌ها بودند:
 
-- [State of GPT - Andrej Karparthy](https://www.youtube.com/watch?v=bZQun8Y4L2A
+- [State of GPT - Andrej Karparthy](https://www.youtube.com/watch?v=bZQun8Y4L2A)
 - [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 - [Building Systems with the ChatGPT API](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/)
 - [LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
