@@ -27,7 +27,7 @@ __export(main_exports, {
   default: () => RtlPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian = require("obsidian");
+var import_obsidian3 = require("obsidian");
 
 // AutoDirPlugin.ts
 var import_view = require("@codemirror/view");
@@ -36,7 +36,7 @@ var import_state = require("@codemirror/state");
 // globals.ts
 var RTL_CLASS = "is-rtl";
 var AUTO_CLASS = "is-auto";
-var STRONG_DIR_REGEX = /(?:([\p{sc=Arabic}\p{sc=Hebrew}])|([\p{sc=Armenian}\p{sc=Bengali}\p{sc=Bopomofo}\p{sc=Braille}\p{sc=Buhid}\p{sc=Canadian_Aboriginal}\p{sc=Cherokee}\p{sc=Cyrillic}\p{sc=Devanagari}\p{sc=Ethiopic}\p{sc=Georgian}\p{sc=Greek}\p{sc=Gujarati}\p{sc=Gurmukhi}\p{sc=Han}\p{sc=Hangul}\p{sc=Hanunoo}\p{sc=Hiragana}\p{sc=Inherited}\p{sc=Kannada}\p{sc=Katakana}\p{sc=Khmer}\p{sc=Lao}\p{sc=Latin}\p{sc=Limbu}\p{sc=Malayalam}\p{sc=Mongolian}\p{sc=Myanmar}\p{sc=Ogham}\p{sc=Oriya}\p{sc=Runic}\p{sc=Sinhala}\p{sc=Syriac}\p{sc=Tagalog}\p{sc=Tagbanwa}\p{sc=Tamil}\p{sc=Telugu}\p{sc=Thaana}\p{sc=Thai}\p{sc=Tibetan}\p{sc=Yi}]))/u;
+var STRONG_DIR_REGEX = /(?:([\p{sc=Arabic}\p{sc=Hebrew}\p{sc=Syriac}\p{sc=Thaana}])|([\p{sc=Armenian}\p{sc=Bengali}\p{sc=Bopomofo}\p{sc=Braille}\p{sc=Buhid}\p{sc=Canadian_Aboriginal}\p{sc=Cherokee}\p{sc=Cyrillic}\p{sc=Devanagari}\p{sc=Ethiopic}\p{sc=Georgian}\p{sc=Greek}\p{sc=Gujarati}\p{sc=Gurmukhi}\p{sc=Han}\p{sc=Hangul}\p{sc=Hanunoo}\p{sc=Hiragana}\p{sc=Inherited}\p{sc=Kannada}\p{sc=Katakana}\p{sc=Khmer}\p{sc=Lao}\p{sc=Latin}\p{sc=Limbu}\p{sc=Malayalam}\p{sc=Mongolian}\p{sc=Myanmar}\p{sc=Ogham}\p{sc=Oriya}\p{sc=Runic}\p{sc=Sinhala}\p{sc=Tagalog}\p{sc=Tagbanwa}\p{sc=Tamil}\p{sc=Telugu}\p{sc=Thai}\p{sc=Tibetan}\p{sc=Yi}]))/u;
 var detectDirection = (s) => {
   const match = s.match(STRONG_DIR_REGEX);
   if (match && match[1]) {
@@ -48,143 +48,150 @@ var detectDirection = (s) => {
 };
 
 // AutoDirPlugin.ts
-var AutoDirectionPlugin = class {
-  constructor(_view) {
-    this.decorationRegions = [];
-    this.active = false;
-    this.rtlDec = import_view.Decoration.line({
-      attributes: { dir: "rtl" }
-    });
-    this.ltrDec = import_view.Decoration.line({
-      attributes: { dir: "ltr" }
-    });
-    this.emptyDirDec = import_view.Decoration.line({
-      attributes: { dir: "" }
-    });
-    this.autoDec = import_view.Decoration.line({
-      attributes: { dir: "auto" }
-    });
-    this.decorations = this.buildDecorations();
-  }
-  update(vu) {
-    if (vu.viewportChanged || vu.docChanged) {
-      const regions = [];
-      if (vu.docChanged) {
-        vu.changes.iterChanges((fromA, toA, fromB, toB) => {
-          const shift = toB - fromB - (toA - fromA);
-          this.shiftDecorationRegions(shift < 0 ? toB : toA, shift);
-          regions.push(...this.getLineRegions(vu.state.doc, fromB, toB));
-        });
+var import_obsidian = require("obsidian");
+function getAutoDirectionPlugin(rtlPlugin) {
+  return import_view.ViewPlugin.fromClass(class {
+    constructor(view) {
+      this.decorationRegions = [];
+      this.active = false;
+      this.rtlDec = import_view.Decoration.line({
+        attributes: { dir: "rtl" }
+      });
+      this.ltrDec = import_view.Decoration.line({
+        attributes: { dir: "ltr" }
+      });
+      this.emptyDirDec = import_view.Decoration.line({
+        attributes: { dir: "" }
+      });
+      this.autoDec = import_view.Decoration.line({
+        attributes: { dir: "auto" }
+      });
+      this.decorations = this.buildDecorations();
+      this.rtlPlugin = rtlPlugin;
+      this.view = view;
+      const editorInfo = this.view.state.field(import_obsidian.editorInfoField);
+      if (editorInfo instanceof import_obsidian.MarkdownView) {
+        this.rtlPlugin.adjustDirectionToView(editorInfo, this);
       }
-      this.updateEx(vu.view, regions);
+      this.rtlPlugin.handleIframeEditor(this.view.dom, this.view, editorInfo.file, this);
     }
-  }
-  destroy() {
-  }
-  setActive(active, view) {
-    const forceUpdate = this.active !== active;
-    this.active = active;
-    this.decorations = this.buildDecorations();
-    if (forceUpdate) {
-      this.updateEx(view);
-    }
-    view.dispatch();
-  }
-  updateEx(view, regions = []) {
-    if (regions.length === 0) {
-      const { from, to } = view.viewport;
-      regions = this.getLineRegions(view.state.doc, from, to);
-    }
-    for (const { from, to } of regions) {
-      for (let pos = from; pos <= to; ) {
-        const line = view.state.doc.lineAt(pos);
-        let dec = this.emptyDirDec;
-        if (this.active) {
-          const s = view.state.doc.sliceString(line.from, line.to);
-          const d = this.detectDecoration(s);
-          dec = d ? d : this.lineBeforeDecoration(line.from);
+    update(vu) {
+      if (vu.viewportChanged || vu.docChanged) {
+        const regions = [];
+        if (vu.docChanged) {
+          vu.changes.iterChanges((fromA, toA, fromB, toB) => {
+            const shift = toB - fromB - (toA - fromA);
+            this.shiftDecorationRegions(shift < 0 ? toB : toA, shift);
+            regions.push(...this.getLineRegions(vu.state.doc, fromB, toB));
+          });
         }
-        this.addDecorationRegion({ from: line.from, to: line.to, dec });
-        pos = line.to + 1;
+        this.updateEx(vu.view, regions);
       }
     }
-    this.decorations = this.buildDecorations();
-  }
-  buildDecorations() {
-    const builder = new import_state.RangeSetBuilder();
-    for (const dr of this.decorationRegions) {
-      builder.add(dr.from, dr.from, dr.dec);
+    destroy() {
     }
-    return builder.finish();
-  }
-  addDecorationRegion(dr) {
-    for (let i = 0; i < this.decorationRegions.length; i++) {
-      if (this.decorationRegions[i].from < dr.from) {
-        continue;
-      }
-      if (this.decorationRegions[i].from === dr.from) {
-        this.decorationRegions[i] = dr;
-      } else if (this.decorationRegions[i].from > dr.from) {
-        this.decorationRegions.splice(i, 0, dr);
-      }
-      return;
-    }
-    this.decorationRegions.push(dr);
-  }
-  shiftDecorationRegions(from, amount) {
-    if (amount === 0) {
-      return;
-    }
-    for (let i = 0; i < this.decorationRegions.length; i++) {
-      if (this.decorationRegions[i].from < from) {
-        continue;
-      }
-      this.decorationRegions[i].from += amount;
-      this.decorationRegions[i].to += amount;
-      if (this.decorationRegions[i].from <= from) {
-        this.decorationRegions.splice(i, 1);
-        i--;
+    setActive(active, view) {
+      const forceUpdate = this.active !== active;
+      this.active = active;
+      this.decorations = this.buildDecorations();
+      if (forceUpdate) {
+        this.updateEx(view);
       }
     }
-  }
-  detectDecoration(s) {
-    const direction = detectDirection(s.replace("- [x]", ""));
-    switch (direction) {
-      case "rtl":
-        return this.rtlDec;
-      case "ltr":
-        return this.ltrDec;
+    updateEx(view, regions = []) {
+      if (regions.length === 0) {
+        const { from, to } = view.viewport;
+        regions = this.getLineRegions(view.state.doc, from, to);
+      }
+      for (const { from, to } of regions) {
+        for (let pos = from; pos <= to; ) {
+          const line = view.state.doc.lineAt(pos);
+          let dec = this.emptyDirDec;
+          if (this.active) {
+            const s = view.state.doc.sliceString(line.from, line.to);
+            const d = this.detectDecoration(s);
+            dec = d ? d : this.lineBeforeDecoration(line.from);
+          }
+          this.addDecorationRegion({ from: line.from, to: line.to, dec });
+          pos = line.to + 1;
+        }
+      }
+      this.decorations = this.buildDecorations();
     }
-    return null;
-  }
-  lineBeforeDecoration(from, def = this.ltrDec) {
-    const l = this.decorationRegions.length;
-    if (l !== 0 && from > this.decorationRegions[l - 1].from) {
-      return this.decorationRegions[l - 1].dec;
+    buildDecorations() {
+      const builder = new import_state.RangeSetBuilder();
+      for (const dr of this.decorationRegions) {
+        builder.add(dr.from, dr.from, dr.dec);
+      }
+      return builder.finish();
     }
-    for (let i = 0; i < l; i++) {
-      if (i !== 0 && this.decorationRegions[i].from >= from) {
-        return this.decorationRegions[i - 1].dec;
+    addDecorationRegion(dr) {
+      for (let i = 0; i < this.decorationRegions.length; i++) {
+        if (this.decorationRegions[i].from < dr.from) {
+          continue;
+        }
+        if (this.decorationRegions[i].from === dr.from) {
+          this.decorationRegions[i] = dr;
+        } else if (this.decorationRegions[i].from > dr.from) {
+          this.decorationRegions.splice(i, 0, dr);
+        }
+        return;
+      }
+      this.decorationRegions.push(dr);
+    }
+    shiftDecorationRegions(from, amount) {
+      if (amount === 0) {
+        return;
+      }
+      for (let i = 0; i < this.decorationRegions.length; i++) {
+        if (this.decorationRegions[i].from < from) {
+          continue;
+        }
+        this.decorationRegions[i].from += amount;
+        this.decorationRegions[i].to += amount;
+        if (this.decorationRegions[i].from <= from) {
+          this.decorationRegions.splice(i, 1);
+          i--;
+        }
       }
     }
-    return def;
-  }
-  getLineRegions(doc, from, to) {
-    const regions = [];
-    for (let i = from; i <= to; i++) {
-      const l = doc.lineAt(i);
-      i = l.to;
-      regions.push({ from: l.from, to: l.to });
+    detectDecoration(s) {
+      const direction = detectDirection(s.replace("- [x]", ""));
+      switch (direction) {
+        case "rtl":
+          return this.rtlDec;
+        case "ltr":
+          return this.ltrDec;
+      }
+      return null;
     }
-    return regions;
-  }
-};
-var autoDirectionPlugin = import_view.ViewPlugin.fromClass(AutoDirectionPlugin, {
-  decorations: (v) => v.decorations
-});
+    lineBeforeDecoration(from, def = this.ltrDec) {
+      const l = this.decorationRegions.length;
+      if (l !== 0 && from > this.decorationRegions[l - 1].from) {
+        return this.decorationRegions[l - 1].dec;
+      }
+      for (let i = 0; i < l; i++) {
+        if (i !== 0 && this.decorationRegions[i].from >= from) {
+          return this.decorationRegions[i - 1].dec;
+        }
+      }
+      return def;
+    }
+    getLineRegions(doc, from, to) {
+      const regions = [];
+      for (let i = from; i <= to; i++) {
+        const l = doc.lineAt(i);
+        i = l.to;
+        regions.push({ from: l.from, to: l.to });
+      }
+      return regions;
+    }
+  }, { decorations: (v) => v.decorations });
+}
 
 // AutoDirPostProcessor.ts
 var lastDetectedDir = "ltr";
+var specialNodes = ["A", "STRONG", "EM", "DEL", "CODE"];
 function breaksToDivs(el) {
   if (!el)
     return;
@@ -204,9 +211,22 @@ function breaksToDivs(el) {
       breaksToDivs(el.children[i]);
   }
 }
-var autoDirectionPostProcessor = (el, ctx) => {
+function detectCanvasElement(el, ctx, setPreviewDirection) {
+  const container = ctx.containerEl;
+  if (container && container.closest) {
+    const possibleCanvas = container.closest(".canvas-node-content");
+    if (possibleCanvas) {
+      const markdownPreview = container.closest(".markdown-preview-view");
+      if (markdownPreview && markdownPreview instanceof HTMLDivElement) {
+        setPreviewDirection(ctx.sourcePath, markdownPreview);
+      }
+    }
+  }
+}
+var autoDirectionPostProcessor = (el, ctx, setPreviewDirection) => {
   let shouldAddDir = false, addedDir = false;
   const childNodes = [];
+  detectCanvasElement(el, ctx, setPreviewDirection);
   breaksToDivs(el);
   for (let i = 0; i < el.childNodes.length; i++) {
     const n = el.childNodes[i];
@@ -215,12 +235,12 @@ var autoDirectionPostProcessor = (el, ctx) => {
       if (dir) {
         addedDir = true;
         lastDetectedDir = dir;
-        if (el.nodeName === "A" && el.parentElement) {
-          el.parentElement.addClass(dirClass(dir));
+        if (specialNodes.contains(el.nodeName) && el.parentElement) {
+          addDirClassIfNotAddedBefore(el.parentElement, dirClass(dir));
         } else {
           el.addClass(dirClass(dir));
           if (el.parentElement && el.parentElement.nodeName === "LI") {
-            el.parentElement.addClass(dirClass(dir));
+            addDirClassIfNotAddedBefore(el.parentElement, dirClass(dir));
           }
         }
       }
@@ -233,7 +253,7 @@ var autoDirectionPostProcessor = (el, ctx) => {
     }
   }
   for (let i = 0; i < childNodes.length; i++) {
-    autoDirectionPostProcessor(childNodes[i], ctx);
+    autoDirectionPostProcessor(childNodes[i], ctx, setPreviewDirection);
   }
   if (el.nodeName === "UL") {
     const lis = el.querySelectorAll("li");
@@ -249,9 +269,18 @@ function dirClass(dir) {
     return "esm-ltr";
   }
 }
+function addDirClassIfNotAddedBefore(el, cls) {
+  if (el.hasClass("esm-rtl") || el.hasClass("esm-ltr")) {
+    return;
+  }
+  el.addClass(cls);
+}
 
 // main.ts
 var import_view2 = require("@codemirror/view");
+
+// settingsTab.ts
+var import_obsidian2 = require("obsidian");
 var DEFAULT_SETTINGS = {
   fileDirections: {},
   defaultDirection: "ltr",
@@ -260,11 +289,57 @@ var DEFAULT_SETTINGS = {
   setYamlDirection: false,
   statusBar: true
 };
-var RtlPlugin = class extends import_obsidian.Plugin {
+var RtlSettingsTab = class extends import_obsidian2.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+    this.settings = plugin.settings;
+  }
+  display() {
+    let { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "RTL Settings" });
+    this.plugin.syncDefaultDirection();
+    new import_obsidian2.Setting(containerEl).setName("Remember text direction per file").setDesc("Store and remember the text direction used for each file individually.").addToggle((toggle) => toggle.setValue(this.settings.rememberPerFile).onChange((value) => {
+      this.settings.rememberPerFile = value;
+      this.plugin.saveSettings();
+      this.plugin.adjustDirectionToActiveView();
+    }));
+    new import_obsidian2.Setting(containerEl).setName("Default text direction").setDesc("What should be the default text direction in Obsidian?").addDropdown((dropdown) => dropdown.addOption("ltr", "LTR").addOption("rtl", "RTL").addOption("auto", "Auto").setValue(this.settings.defaultDirection).onChange((value) => {
+      this.settings.defaultDirection = value;
+      this.app.vault.setConfig("rightToLeft", value == "rtl");
+      this.plugin.saveSettings();
+      this.plugin.adjustDirectionToActiveView();
+    }));
+    new import_obsidian2.Setting(containerEl).setName("Set note title direction").setDesc("In RTL notes, also set the direction of the note title.").addToggle((toggle) => toggle.setValue(this.settings.setNoteTitleDirection).onChange((value) => {
+      this.settings.setNoteTitleDirection = value;
+      this.plugin.saveSettings();
+      this.plugin.adjustDirectionToActiveView();
+    }));
+    new import_obsidian2.Setting(containerEl).setName("Set YAML direction in Preview").setDesc("For RTL notes, preview YAML blocks as RTL. (When turning off, restart of Obsidian is required.)").addToggle((toggle) => {
+      var _a;
+      return toggle.setValue((_a = this.settings.setYamlDirection) != null ? _a : false).onChange((value) => {
+        this.settings.setYamlDirection = value;
+        this.plugin.saveSettings();
+        this.plugin.adjustDirectionToActiveView();
+      });
+    });
+    new import_obsidian2.Setting(containerEl).setName("Show status bar item").setDesc("Show a clickable status bar item showing the current direction.").addToggle((toggle) => {
+      var _a;
+      return toggle.setValue((_a = this.settings.statusBar) != null ? _a : true).onChange((value) => {
+        this.settings.statusBar = value;
+        this.plugin.saveSettings();
+        this.plugin.adjustDirectionToActiveView();
+      });
+    });
+  }
+};
+
+// main.ts
+var RtlPlugin = class extends import_obsidian3.Plugin {
   constructor() {
     super(...arguments);
     this.settings = null;
-    this.initialized = false;
     this.statusBarItem = null;
     this.statusBarText = null;
   }
@@ -274,23 +349,28 @@ var RtlPlugin = class extends import_obsidian.Plugin {
       name: "Switch Text Direction (LTR->RTL->auto)",
       icon: "arrow-left-right",
       callback: () => {
-        this.switchDocumentDirection();
+        const view = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
+        if (!view || !(view == null ? void 0 : view.editor))
+          return;
+        this.switchDocumentDirection(view.editor, view);
       }
     });
-    this.registerEditorExtension(autoDirectionPlugin);
+    this.autoDirectionPlugin = getAutoDirectionPlugin(this);
+    this.registerEditorExtension(this.autoDirectionPlugin);
     this.registerEditorExtension(import_view2.EditorView.perLineTextDirection.of(true));
-    this.registerMarkdownPostProcessor(autoDirectionPostProcessor);
+    this.registerMarkdownPostProcessor((el, ctx) => {
+      autoDirectionPostProcessor(el, ctx, (path, markdownPreviewElement) => this.setCanvasPreviewDirection(path, markdownPreviewElement));
+    });
     await this.convertLegacySettings();
     await this.loadSettings();
     this.addSettingTab(new RtlSettingsTab(this.app, this));
     this.app.workspace.on("active-leaf-change", async (leaf) => {
-      if (leaf.view instanceof import_obsidian.MarkdownView) {
-        const file = leaf.view.file;
-        await this.onFileOpen(file);
-      }
+      this.adjustDirectionToActiveView();
+      this.updateStatusBar();
     });
-    this.app.workspace.on("file-open", async (file) => {
-      await this.onFileOpen(file);
+    this.app.workspace.on("file-open", async (file, ctx) => {
+      this.adjustDirectionToActiveView();
+      this.updateStatusBar();
     });
     this.registerEvent(this.app.vault.on("delete", (file) => {
       if (file && file.path && file.path in this.settings.fileDirections) {
@@ -306,57 +386,66 @@ var RtlPlugin = class extends import_obsidian.Plugin {
       }
     }));
     this.statusBarItem = this.addStatusBarItem();
-    const languageIcon = (0, import_obsidian.getIcon)("arrow-left-right");
+    const languageIcon = (0, import_obsidian3.getIcon)("arrow-left-right");
     this.statusBarItem.appendChild(languageIcon);
     this.statusBarText = this.statusBarItem.createEl("span");
     this.statusBarText.style.marginLeft = "5px";
     this.statusBarItem.title = "Text direction";
     this.statusBarItem.addClass("mod-clickable");
     this.statusBarItem.addEventListener("click", (_ev) => {
-      this.switchDocumentDirection();
+      const view = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
+      if (!view || !(view == null ? void 0 : view.editor))
+        return;
+      this.switchDocumentDirection(view.editor, view);
     });
   }
-  async initialize() {
-    this.initialized = true;
-  }
   onunload() {
-    const view = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
     if (view && (view == null ? void 0 : view.editor)) {
       const editorView = view.editor.cm;
-      const plugin = editorView.plugin(autoDirectionPlugin);
-      if (plugin) {
-        plugin.setActive(false, editorView);
-      }
+      this.adjustAutoDirection(editorView, "ltr");
     }
     console.log("unloading RTL plugin");
   }
-  async onFileOpen(file) {
-    if (!this.initialized)
-      await this.initialize();
-    if (file && file.path) {
-      this.syncDefaultDirection();
-      this.currentFile = file;
-      this.adjustDirectionToCurrentFile();
+  adjustDirectionToActiveView() {
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
+    if (!view)
+      return;
+    this.adjustDirectionToView(view);
+  }
+  adjustDirectionToView(view, autoDirectionPlugin) {
+    if (!view)
+      return;
+    this.syncDefaultDirection();
+    const file = view == null ? void 0 : view.file;
+    const editor = view == null ? void 0 : view.editor;
+    const editorView = editor == null ? void 0 : editor.cm;
+    if (file && file.path && editorView) {
+      const [requiredDirection, _usedDefault] = this.getRequiredFileDirection(file);
+      this.setMarkdownViewDirection(view, editor, editorView, requiredDirection, autoDirectionPlugin);
     }
   }
-  adjustDirectionToCurrentFile() {
-    if (this.currentFile && this.currentFile.path) {
-      let requiredDirection = null;
-      const frontMatterDirection = this.getFrontMatterDirection(this.currentFile);
-      let usedDefault = false;
-      if (frontMatterDirection) {
-        if (frontMatterDirection == "rtl" || frontMatterDirection == "ltr" || frontMatterDirection == "auto")
-          requiredDirection = frontMatterDirection;
-        else
-          console.log("Front matter direction in file", this.currentFile.path, "is unknown:", frontMatterDirection);
-      } else if (this.settings.rememberPerFile && this.currentFile.path in this.settings.fileDirections) {
-        requiredDirection = this.settings.fileDirections[this.currentFile.path];
-      } else {
-        requiredDirection = this.settings.defaultDirection;
-        usedDefault = true;
-      }
-      this.setDocumentDirection(requiredDirection, usedDefault);
+  getRequiredFileDirection(file) {
+    if (!file) {
+      return [this.settings.defaultDirection, true];
     }
+    if (!(file instanceof import_obsidian3.TFile))
+      return null;
+    let requiredDirection = null;
+    const frontMatterDirection = this.getFrontMatterDirection(file);
+    let usedDefault = false;
+    if (frontMatterDirection) {
+      if (frontMatterDirection == "rtl" || frontMatterDirection == "ltr" || frontMatterDirection == "auto")
+        requiredDirection = frontMatterDirection;
+      else
+        console.log("Front matter direction in file", file.path, "is unknown:", frontMatterDirection);
+    } else if (this.settings.rememberPerFile && file.path in this.settings.fileDirections) {
+      requiredDirection = this.settings.fileDirections[file.path];
+    } else {
+      requiredDirection = this.settings.defaultDirection;
+      usedDefault = true;
+    }
+    return [requiredDirection, usedDefault];
   }
   async saveSettings() {
     await this.saveData(this.settings);
@@ -372,43 +461,61 @@ var RtlPlugin = class extends import_obsidian.Plugin {
         this.settings = JSON.parse(legacyContent);
       }
       this.app.vault.adapter.remove(legacySettingsPath);
-      new import_obsidian.Notice("RTL Plugin: legacy settings were converted to the new format");
+      new import_obsidian3.Notice("RTL Plugin: legacy settings were converted to the new format");
       this.saveSettings();
     }
   }
-  setStatusBar(direction, usedDefault) {
-    if (this.settings.statusBar) {
-      let directionString = direction === "auto" ? "auto" : direction === "ltr" ? "LTR" : "RTL";
-      let statusString = "";
-      if (usedDefault)
-        statusString = `Default (${direction})`;
-      else {
-        if (direction === "auto")
-          statusString = "Auto";
-        else
-          statusString = directionString;
+  updateStatusBar() {
+    let hide = true;
+    let usedDefault = false;
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
+    if (view && (view == null ? void 0 : view.editor)) {
+      const direction = this.getDocumentDirection(view.editor, view);
+      if (view.file && view.file.path)
+        [, usedDefault] = this.getRequiredFileDirection(view.file);
+      if (this.settings.statusBar) {
+        let directionString = direction === "auto" ? "auto" : direction === "ltr" ? "LTR" : "RTL";
+        let statusString = "";
+        if (usedDefault)
+          statusString = `Default (${direction})`;
+        else {
+          if (direction === "auto")
+            statusString = "Auto";
+          else
+            statusString = directionString;
+        }
+        this.statusBarText.textContent = statusString;
+        this.statusBarItem.style.display = null;
+        hide = false;
       }
-      this.statusBarText.textContent = statusString;
-      this.statusBarItem.style.display = null;
-    } else {
-      this.statusBarItem.style.display = "none";
+    }
+    if (hide)
+      this.hideStatusBar();
+  }
+  hideStatusBar() {
+    this.statusBarItem.style.display = "none";
+  }
+  handleIframeEditor(editorDiv, editorView, file, autoDirectionPlugin) {
+    const isInIframe = editorDiv.closest(".mod-inside-iframe");
+    if (isInIframe) {
+      if (editorDiv instanceof HTMLDivElement) {
+        const [requiredDirection, _] = this.getRequiredFileDirection(file);
+        this.adjustAutoDirection(editorView, requiredDirection, autoDirectionPlugin);
+        this.setDocumentDirectionForEditorDiv(editorDiv, requiredDirection);
+      }
     }
   }
-  setDocumentDirection(newDirection, usedDefault) {
-    let view = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
-    if (!view || !(view == null ? void 0 : view.editor))
+  setMarkdownViewDirection(view, editor, editorView, newDirection, autoDirectionPlugin) {
+    if (!view || !editor) {
+      this.hideStatusBar();
       return;
-    this.setStatusBar(newDirection, usedDefault);
-    const editorView = view.editor.cm;
-    const autoDirection = editorView.plugin(autoDirectionPlugin);
-    if (autoDirection) {
-      autoDirection.setActive(newDirection === "auto", editorView);
-      let title = editorView.dom.querySelector(".inline-title");
-      if (!title) {
-        title = view.previewMode.containerEl.querySelector(".inline-title");
-      }
-      title == null ? void 0 : title.setAttribute("dir", newDirection === "auto" ? "auto" : "");
     }
+    let title = editorView.dom.querySelector(".inline-title");
+    if (!title) {
+      title = view.previewMode.containerEl.querySelector(".inline-title");
+    }
+    title == null ? void 0 : title.setAttribute("dir", newDirection === "auto" ? "auto" : "");
+    this.adjustAutoDirection(editorView, newDirection, autoDirectionPlugin);
     const editorDivs = view.contentEl.getElementsByClassName("cm-editor");
     for (const editorDiv of editorDivs) {
       if (editorDiv instanceof HTMLDivElement)
@@ -424,9 +531,17 @@ var RtlPlugin = class extends import_obsidian.Plugin {
       let header = container.getElementsByClassName("view-header-title-container");
       header[0].style.direction = newDirection;
     }
-    view.editor.refresh();
+    editor.refresh();
     if (newDirection !== "auto") {
       this.setExportDirection(newDirection);
+    }
+  }
+  adjustAutoDirection(editorView, newDirection, autoDirectionPlugin) {
+    const autoDirection = autoDirectionPlugin != null ? autoDirectionPlugin : editorView.plugin(this.autoDirectionPlugin);
+    if (autoDirection) {
+      autoDirection.setActive(newDirection === "auto", editorView);
+      if (!autoDirectionPlugin)
+        editorView.dispatch();
     }
   }
   setDocumentDirectionForEditorDiv(editorDiv, newDirection) {
@@ -439,6 +554,11 @@ var RtlPlugin = class extends import_obsidian.Plugin {
     readingDiv.classList.remove("rtl-yaml");
     if (newDirection !== "auto" && this.settings.setYamlDirection)
       readingDiv.classList.add("rtl-yaml");
+  }
+  setCanvasPreviewDirection(path, markdownPreviewElement) {
+    const file = this.app.vault.getAbstractFileByPath(path);
+    const [requiredDirection, _] = this.getRequiredFileDirection(file);
+    this.setDocumentDirectionForReadingDiv(markdownPreviewElement, requiredDirection);
   }
   addDirectionClassToEl(el, direction) {
     switch (direction) {
@@ -481,8 +601,12 @@ var RtlPlugin = class extends import_obsidian.Plugin {
     }
     return null;
   }
-  switchDocumentDirection() {
-    let newDirection = this.getDocumentDirection();
+  switchDocumentDirection(editor, view) {
+    let newDirection = this.getDocumentDirection(editor, view);
+    if (newDirection === null) {
+      new import_obsidian3.Notice("Obsidian RTL can't set the direction of this document");
+      return;
+    }
     let displayName = "";
     switch (newDirection) {
       case "ltr":
@@ -498,18 +622,42 @@ var RtlPlugin = class extends import_obsidian.Plugin {
         displayName = "LTR";
         break;
     }
-    new import_obsidian.Notice(`Document direction set to ${displayName}`, 2e3);
-    this.setDocumentDirection(newDirection, false);
-    if (this.settings.rememberPerFile && this.currentFile && this.currentFile.path) {
-      this.settings.fileDirections[this.currentFile.path] = newDirection;
-      this.saveSettings();
+    if (view instanceof import_obsidian3.MarkdownView) {
+      const editorView = view.editor.cm;
+      this.setMarkdownViewDirection(view, editor, editorView, newDirection);
+      if (this.settings.rememberPerFile && view.file && view.file.path) {
+        this.settings.fileDirections[view.file.path] = newDirection;
+        this.saveSettings();
+      }
+      new import_obsidian3.Notice(`Document direction set to ${displayName}`, 2e3);
+      this.updateStatusBar();
+    } else {
+      const canvasView = this.getCanvasContext(view);
+      if (canvasView) {
+        if (view.file)
+          new import_obsidian3.Notice("To change a canvas card direction, open the document separately and reload the canvas.");
+        else
+          new import_obsidian3.Notice("Can't change the direction of a card without a file.");
+      }
     }
   }
-  getDocumentDirection() {
-    let view = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
-    if (!view)
-      return "ltr";
-    const rtlEditors = view.contentEl.getElementsByClassName(RTL_CLASS), autoEditors = view.contentEl.getElementsByClassName(AUTO_CLASS);
+  getCanvasContext(ctx) {
+    if (ctx instanceof import_obsidian3.MarkdownView)
+      return null;
+    const possibleCanvasContainer = ctx == null ? void 0 : ctx.containerEl;
+    if (possibleCanvasContainer && possibleCanvasContainer.hasClass("canvas-node-content"))
+      return possibleCanvasContainer;
+  }
+  getDocumentDirection(_editor, ctx) {
+    let refElement = null;
+    if (ctx instanceof import_obsidian3.MarkdownView) {
+      refElement = ctx.contentEl;
+    } else {
+      refElement = this.getCanvasContext(ctx);
+    }
+    if (refElement === null)
+      return null;
+    const rtlEditors = refElement.getElementsByClassName(RTL_CLASS), autoEditors = refElement.getElementsByClassName(AUTO_CLASS);
     if (rtlEditors.length > 0)
       return "rtl";
     else if (autoEditors.length > 0)
@@ -534,50 +682,5 @@ var RtlPlugin = class extends import_obsidian.Plugin {
       this.settings.defaultDirection = obsidianDirection;
       this.saveSettings();
     }
-  }
-};
-var RtlSettingsTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.plugin = plugin;
-    this.settings = plugin.settings;
-  }
-  display() {
-    let { containerEl } = this;
-    containerEl.empty();
-    containerEl.createEl("h2", { text: "RTL Settings" });
-    this.plugin.syncDefaultDirection();
-    new import_obsidian.Setting(containerEl).setName("Remember text direction per file").setDesc("Store and remember the text direction used for each file individually.").addToggle((toggle) => toggle.setValue(this.settings.rememberPerFile).onChange((value) => {
-      this.settings.rememberPerFile = value;
-      this.plugin.saveSettings();
-      this.plugin.adjustDirectionToCurrentFile();
-    }));
-    new import_obsidian.Setting(containerEl).setName("Default text direction").setDesc("What should be the default text direction in Obsidian?").addDropdown((dropdown) => dropdown.addOption("ltr", "LTR").addOption("rtl", "RTL").addOption("auto", "Auto").setValue(this.settings.defaultDirection).onChange((value) => {
-      this.settings.defaultDirection = value;
-      this.app.vault.setConfig("rightToLeft", value == "rtl");
-      this.plugin.saveSettings();
-      this.plugin.adjustDirectionToCurrentFile();
-    }));
-    new import_obsidian.Setting(containerEl).setName("Set note title direction").setDesc("In RTL notes, also set the direction of the note title.").addToggle((toggle) => toggle.setValue(this.settings.setNoteTitleDirection).onChange((value) => {
-      this.settings.setNoteTitleDirection = value;
-      this.plugin.saveSettings();
-      this.plugin.adjustDirectionToCurrentFile();
-    }));
-    new import_obsidian.Setting(containerEl).setName("Set YAML direction in Preview").setDesc("For RTL notes, preview YAML blocks as RTL. (When turning off, restart of Obsidian is required.)").addToggle((toggle) => {
-      var _a;
-      return toggle.setValue((_a = this.settings.setYamlDirection) != null ? _a : false).onChange((value) => {
-        this.settings.setYamlDirection = value;
-        this.plugin.saveSettings();
-        this.plugin.adjustDirectionToCurrentFile();
-      });
-    });
-    new import_obsidian.Setting(containerEl).setName("Show status bar item").setDesc("Show a clickable status bar item showing the current direction.").addToggle((toggle) => {
-      var _a;
-      return toggle.setValue((_a = this.settings.statusBar) != null ? _a : true).onChange((value) => {
-        this.settings.statusBar = value;
-        this.plugin.saveSettings();
-        this.plugin.adjustDirectionToCurrentFile();
-      });
-    });
   }
 };
