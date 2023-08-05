@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "591395d3b277e59a",
+    "type": "split",
+    "children": [
+      {
+        "id": "de85ef4a15c6d23d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fb2ccd9cb6f11f7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed6eaf09500cee66",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "90a330cb06284c5e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a29c0f45305e1c3d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "18359657151f95e3",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "783fbf1f4520b72d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "cb07ac644d78d1f2",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5abfc1ced0f2ef15",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "777d1abba21fcce8",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "70c632321a27e6ee",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5fb2ccd9cb6f11f7",
+  "lastOpenFiles": [
+    "static/site.webmanifest",
+    "static/safari-pinned-tab.svg",
+    "static/opengraph/ogp.png",
+    "static/opengraph/avatar.jpg",
+    "static/opengraph",
+    "static/mstile-150x150.png",
+    "static/fonts/Shabnam/Shabnam-Thin.woff2",
+    "static/fonts/Shabnam/Shabnam-Thin.ttf",
+    "static/fonts/Shabnam/Shabnam-Regular.woff2",
+    "static/fonts/Shabnam/Shabnam-Regular.ttf",
+    "static/fonts/Shabnam/Shabnam-Medium.woff2",
+    "static/fonts/Shabnam/Shabnam-Medium.ttf",
+    "static/fonts/Shabnam/Shabnam-Light.woff2",
+    "static/fonts/Shabnam/Shabnam-Light.ttf",
+    "static/fonts/Shabnam/Shabnam-Bold.woff2",
+    "static/favicon-32x32.png",
+    "static/favicon-16x16.png",
+    "static/apple-touch-icon.png",
+    "static/android-chrome-256x256.png",
+    "static/android-chrome-192x192.png",
+    "content/search.fa.md",
+    "content/posts/draft.md",
+    "content/posts/2023/thesis-defense-gradudation/index.md",
+    "content/posts/2023/sleep-interpretation/sleep.png",
+    "content/posts/2023/sleep-interpretation/index.md",
+    "content/posts/2023/ram-rom-sdcard-internal-memory/index.md",
+    "content/posts/2023/proposal-seminar-thesis/index.md",
+    "content/posts/2023/personal-development-tir-1402/index.md",
+    "content/posts/2023/personal-development-ordibehesht-1402/index.md",
+    "content/posts/2023/personal-development-khordad-1402/index.md",
+    "content/posts/2023/personal-development-farvardin-1402/index.md",
+    "content/posts/2023/personal-development-esfand-1401/index.md",
+    "content/posts/2023/personal-development-bahman-1400/index.md",
+    "content/posts/2023/my-favorite-blogs-and-channels/index.md",
+    "content/posts/2023/linux-distributions-review/index.md",
+    "content/posts/2023/late-lessons-academia/index.md",
+    "content/posts/2023/download-youtube-playlists/index.md",
+    "content/posts/2023/create-your-own-website-part1/index.md",
+    "content/posts/2023/country-comparison-for-immigrants/index.md",
+    "content/posts/2023/buying-android-phones/index.md",
+    "content/posts/2023/about-obsidian/index.md",
+    "content/posts/2022/sharif-dormitory/index.md",
+    "content/posts/2022/questions-olympiad-konkur/index.md",
+    "content/posts/2022/Login-Sharif/index.md",
+    "content/posts/2021/toefl-exam-experience/index.md",
+    "content/posts/2021/olympiad-computer-engineering/index.md"
+  ]
+}
