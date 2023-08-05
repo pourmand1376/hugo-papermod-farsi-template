@@ -25,8 +25,10 @@ comments: true
 - [Anna’s Archive](https://www.annas-archive.org/)
 - [Ebookee: Free Download eBooks Search Engine!](https://ebookee.com/)
 - [PDF Drive - Search and download PDF files for free.](http://www.pdfdrive.com/)
-
-
+- [Unpaywall: An open database of 20 million free scholarly articles](https://unpaywall.org/)
+- [Get The Research](http://GetTheResearch.org)
+- [OA.mg · Open Access for Everyone · Download and read over 240 million research papers](http://OA.mg)
+- [CORE – Aggregating the world’s open access research papers](http://core.ac.uk)
 ## مقاله
 یه سری مقالات که در [ارکایو](https://arxiv.org/) منتشر میشن و یه سری های دیگه open access هستند و بصورت رایگان قابل دانلود هستن. من اونها رو کار ندارم. برای دانلود بقیه مقالات دو تا راه دارید: استفاده از سایت‌های خارجی یا ایرانی. 
 ### سایت‌های خارجی
@@ -38,6 +40,7 @@ comments: true
 یک extension کروم هم برای سای‌هاب هست که می‌تونید استفاده کنید. 
 - [Chrome Web Store - Extensions](https://chrome.google.com/webstore/detail/sci-hub-x-now/gmmnidkpkgiohfdoenhpghbilmeeagjj)
 - [Sci-Hub](https://sci-hub.hkvisa.net/)
+- [Sci-Hub journal:latest sci-hub mirror links](http://sci-hub.wf)
 
 ### سایت‌های ایرانی
 راه بعدی هم استفاده از [سمنتاک](https://semanta.ir/) هست که اکانتش رو دانشگاه بهمون داده. اگر در حال تحصیل هستید میتونید اکانتش رو با ایمیل دانشجویی‌تون بگیرید. یه اعتبار اولیه‌ای رو بهتون میده. این اعتبار اولیه قابل شارژه یعنی اگر تموم شد هم چیز مهمی نیست به کتابخانه دانشگاه‌تون یه ایمیل میدین براتون شارژ میکنند.
