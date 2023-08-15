@@ -13,4 +13,6 @@ hugo.darwin
 hugo.linux
 
 # Temporary lock file while building
-.hugo_build.lock
+.hugo_build.lock.trash/
+.obsidian/workspace
+.obsidian/workspace-mobile.json
