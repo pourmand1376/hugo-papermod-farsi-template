@@ -4,6 +4,11 @@
   "textFontFamily": "",
   "enabledCssSnippets": [
     "shabnam",
+<<<<<<< HEAD
     "Shabnam"
+=======
+    "Shabnam.woff",
+    "Shabnam_woff"
+>>>>>>> refs/remotes/origin/publish_site
   ]
 }
