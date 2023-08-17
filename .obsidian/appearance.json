@@ -3,6 +3,7 @@
   "theme": "system",
   "textFontFamily": "",
   "enabledCssSnippets": [
-    "Shabnam.woff"
+    "Shabnam.woff",
+    "shabnam"
   ]
 }
