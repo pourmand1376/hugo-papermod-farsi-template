@@ -1,6 +1,8 @@
 {
   "accentColor": "",
   "enabledCssSnippets": [
-    "Shabnam_woff"
-  ]
+    "Shabnam_woff",
+    "shabnam_woff"
+  ],
+  "theme": "system"
 }
