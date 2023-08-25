@@ -1,31 +1,47 @@
-<script src="https://giscus.app/client.js"
-        data-repo="pourmand1376/hugo-papermod-farsi-template"
-        data-repo-id="R_kgDOIllBXQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOIllBXc4CTdMP"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+<br/>
+این وبلاگ از
+<a href="https://giscus.app/" style="text-decoration: underline">Giscus</a>
+برای کامنت‌گذاری استفاده می‌کند و برای ثبت‌ کامنت باید یک اکانت
+<a href="https://github.com/signup" style="text-decoration: underline"
+  >Github</a
+>
+داشته باشید. 
+همچنین می‌تونید برای آپلود هر نوع فایل یا تصویر بعد از ثبت کامنت روی تاریخ ثبت کامنت کلیک کرده 
+و از صفحه 
+Github Discussions
+تصویر یا فایل خود را آپلود کنید. 
+<br></br>
+<script
+  src="https://giscus.app/client.js"
+  data-repo="pourmand1376/hugo-papermod-farsi-template"
+  data-repo-id="R_kgDOIllBXQ"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOIllBXc4CTdMP"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  crossorigin="anonymous"
+  async
+></script>
 <script>
-        // Get the script element
-const scriptElement = document.querySelector('script[src="https://giscus.app/client.js"]');
+  // Get the script element
+  const scriptElement = document.querySelector(
+    'script[src="https://giscus.app/client.js"]'
+  );
 
-// Set the value of the data-theme attribute to the value stored in localStorage
-scriptElement.setAttribute('data-theme', localStorage.getItem('pref-theme'));
+  // Set the value of the data-theme attribute to the value stored in localStorage
+  scriptElement.setAttribute("data-theme", localStorage.getItem("pref-theme"));
 
-// Get the theme-toggle switch element
-const themeToggleSwitch = document.querySelector('#theme-toggle');
+  // Get the theme-toggle switch element
+  const themeToggleSwitch = document.querySelector("#theme-toggle");
 
-// Add a click event listener to the switch
-themeToggleSwitch.addEventListener('click', function() {
-  // Reload the JavaScript file by reloading the page
-  location.reload();
-});
+  // Add a click event listener to the switch
+  themeToggleSwitch.addEventListener("click", function () {
+    // Reload the JavaScript file by reloading the page
+    location.reload();
+  });
 </script>
