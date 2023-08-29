@@ -10,6 +10,8 @@ author: ["امیر"]
 ## ابزارهای مفید
 - [Shareable Online Calendar and Scheduling - Google Calendar](https://calendar.google.com/calendar/u/0/r/week?pli=1)
 - [Log in to Overleaf - Overleaf, Online LaTeX Editor](https://www.overleaf.com/project)
+- [Wayback Machine](https://archive.org/)
+
 ## سایت‌های جالب
 - [Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map](https://www.flightradar24.com/)
 
@@ -22,9 +24,7 @@ author: ["امیر"]
 - [Integral Calculator](https://www.integral-calculator.com/)
 - [Mathcha](https://www.mathcha.io/editor#)
 ## کانال‌های یوتیوب
-دسته لینوکس و DevOps
-
-[Wayback Machine](https://archive.org/)
+... 
 
 ## بازی
 - [Minecraft](https://www.youtube.com/@Eyecraftmc/videos)
