@@ -7,6 +7,20 @@ author: ["امیر"]
 
 با خودم گفتم به جای‌ این که بوک‌مارک‌هام رو داخل مرورگر ذخیره کنم، اینجا ذخیره‌شون کنم. شاید بعداً بعضی‌هاشون رو دسته‌بندی کردم و با توضیحات در یک پست جداگانه منتشر کردم. 
 
+## ابزارهای مفید
+- [Shareable Online Calendar and Scheduling - Google Calendar](https://calendar.google.com/calendar/u/0/r/week?pli=1)
+- [Log in to Overleaf - Overleaf, Online LaTeX Editor](https://www.overleaf.com/project)
+## سایت‌های جالب
+- [Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map](https://www.flightradar24.com/)
+
+## ریاضی
+- [Wolfram|Alpha: Computational Intelligence](https://www.wolframalpha.com/)
+- [Symbolab Math Solver - Step by Step calculator](https://www.symbolab.com/)
+- [Fetching Title#ni7b](https://live.sympy.org/)
+- [GeoGebra - the world’s favorite, free math tools used by over 100 million students and teachers](https://www.geogebra.org/?lang=en)
+- [Derivative Calculator](https://www.derivative-calculator.net/)
+- [Integral Calculator](https://www.integral-calculator.com/)
+- [Mathcha](https://www.mathcha.io/editor#)
 ## کانال‌های یوتیوب
 دسته لینوکس و DevOps
 
