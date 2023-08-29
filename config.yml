@@ -1,10 +1,9 @@
 baseURL: https://aprd.ir/
-languageCode: 'fa'
-defaultContentLanguage: 'fa'
-title: 'گاه‌نوشته‌های امیرپورمند'
+languageCode: "fa"
+defaultContentLanguage: "fa"
+title: "گاه‌نوشته‌های امیرپورمند"
 theme: "PaperMod"
 paginate: 10
-
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -31,7 +30,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -79,8 +78,7 @@ params:
   homeInfoParams:
     Title: سلام امیر پورمند هستم
     Content: >
-          اینجا افکارم رو به اشتراک می‌گذارم. 
-
+      اینجا افکارم رو به اشتراک می‌گذارم.
 
   socialIcons:
     - name: rss
@@ -127,7 +125,6 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -140,9 +137,8 @@ markup:
     # style: monokai
 
 permalinks:
-# https://gohugo.io/content-management/urls/
-    posts: "/:filename/"
-    
+  # https://gohugo.io/content-management/urls/
+  posts: "/:filename/"
 
 menu:
   main:
@@ -163,14 +159,14 @@ menu:
       weight: 40
 
 languages:
-    fa:
-        languageName: "farsi"
-        weight: 1
-        languagedirection: rtl
-        taxonomies:
-          category: categories
-          tag: fatags
-          series: series
+  fa:
+    languageName: "farsi"
+    weight: 1
+    languagedirection: rtl
+    taxonomies:
+      category: categories
+      tag: fatags
+      series: series
 
 outputs:
   home:

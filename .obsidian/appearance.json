@@ -1,5 +1,8 @@
 {
   "accentColor": "",
+  "enabledCssSnippets": [
+    "Shabnam_woff"
+  ],
   "theme": "system",
-  "textFontFamily": ""
+  "translucency": false
 }
