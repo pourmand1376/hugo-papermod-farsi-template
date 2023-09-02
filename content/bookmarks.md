@@ -24,7 +24,6 @@ author: ["امیر"]
 - [Integral Calculator](https://www.integral-calculator.com/)
 - [Mathcha](https://www.mathcha.io/editor#)
 ## کانال‌های یوتیوب
-... 
 
 ## بازی
 - [Minecraft](https://www.youtube.com/@Eyecraftmc/videos)
