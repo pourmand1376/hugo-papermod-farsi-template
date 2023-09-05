@@ -12,6 +12,8 @@ author: ["امیر"]
 - [Log in to Overleaf - Overleaf, Online LaTeX Editor](https://www.overleaf.com/project)
 - [Wayback Machine](https://archive.org/)
 
+## موزیک
+[سانگ سرا - جهان موسیقی بی کلام](https://songsara.net/)
 ## سایت‌های جالب
 - [Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map](https://www.flightradar24.com/)
 
