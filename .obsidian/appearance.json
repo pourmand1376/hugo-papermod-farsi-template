@@ -4,5 +4,6 @@
     "Shabnam_woff"
   ],
   "theme": "system",
-  "translucency": false
+  "translucency": false,
+  "baseFontSize": 14
 }

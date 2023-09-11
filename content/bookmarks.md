@@ -14,8 +14,10 @@ author: ["امیر"]
 
 ## موزیک
 [سانگ سرا - جهان موسیقی بی کلام](https://songsara.net/)
-## سایت‌های جالب
+## سایت‌های جالب و مفید
 - [Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map](https://www.flightradar24.com/)
+- [Discover Most Reviewed Places in your city](https://www.top-rated.online/) 
+همون‌طور که می‌دونید تو نقشه گوگل نمیشه مکان‌ها رو بر اساس تعداد نظرات مرتب کرد. این سایت بهترین مکان‌های هر شهر بر اساس تعداد نظرات و نمره رو نشون میده. برای انتخاب رستوران و جاهای دیدنی خیلی مناسبه. 
 
 ## ریاضی
 - [Wolfram|Alpha: Computational Intelligence](https://www.wolframalpha.com/)
