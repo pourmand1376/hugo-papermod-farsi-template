@@ -4,7 +4,7 @@ defaultContentLanguage: "fa"
 title: "گاه‌نوشته‌های امیرپورمند"
 theme: "PaperMod"
 paginate: 10
-
+copyright: نوشته‌های این وبلاگ با پروانه [کریتیو کامنز اتریبیوشن ۴.۰ اینترنشنال](https://creativecommons.org/licenses/by/4.0/)  منتشر شده‌اند.
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
