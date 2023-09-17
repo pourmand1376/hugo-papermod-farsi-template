@@ -28,6 +28,12 @@ author: ["امیر"]
 - [Integral Calculator](https://www.integral-calculator.com/)
 - [Mathcha](https://www.mathcha.io/editor#)
 ## کانال‌های یوتیوب
+[Best Documentary](https://www.youtube.com/@BestDoc/videos)
+[Branch Education](https://www.youtube.com/@BranchEducation)
+[Better than Yesterday](https://www.youtube.com/@BetterThanYesterday)
+[Vertasium](https://www.youtube.com/@veritasium)
+[Mohsen Namjoo](https://www.youtube.com/@officialmohsennamjoo)
+
 
 ## بازی
 - [Minecraft](https://www.youtube.com/@Eyecraftmc/videos)
