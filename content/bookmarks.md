@@ -13,7 +13,13 @@ author: ["امیر"]
 - [Wayback Machine](https://archive.org/)
 
 ## موزیک
-[سانگ سرا - جهان موسیقی بی کلام](https://songsara.net/)
+- [سانگ سرا - جهان موسیقی بی کلام](https://songsara.net/)
+
+## ابزارهای وب‌سایت
+- [Monitoring - IRAN](http://pourmand.netnegar.io/)  
+- [Monitoring Global](https://pourmand.cronitorstatus.com/)
+- [Google Search Console](https://search.google.com/search-console/)
+- [Google Analytics](https://analytics.google.com/)
 ## سایت‌های جالب و مفید
 - [Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map](https://www.flightradar24.com/)
 - [Discover Most Reviewed Places in your city](https://www.top-rated.online/) 
