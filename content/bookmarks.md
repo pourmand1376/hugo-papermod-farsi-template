@@ -42,7 +42,10 @@ author: ["امیر"]
 - [Vertasium](https://www.youtube.com/@veritasium)
 - [Mohsen Namjoo](https://www.youtube.com/@officialmohsennamjoo)
 
-
+## کانال‌های استراحت و تفریح
+- [Country Life Vlog](https://youtube.com/@country_life_vlog?si=v2pnvo-OZs9wMuDp)
+- [Temponaut Timelapse - YouTube](https://www.youtube.com/@Temponaut_Timelapse)
+- [The Timewriters - YouTube](https://www.youtube.com/@theTimewriters)
 ## بازی
 - [Minecraft](https://www.youtube.com/@Eyecraftmc/videos)
 - [ChunkBase](https://www.chunkbase.com/)
@@ -55,6 +58,8 @@ author: ["امیر"]
 - [دیکشنری آنلاین تحلیلگران](http://tahlilgaran.org/TDictionary/WebApp/)
 
 ## لینک‌های متمم
+[رادیو مذاکره | پادکست محمدرضا شعبانعلی - محمدرضا شعبانعلی](https://www.shabanali.com/%D8%B1%D8%A7%D8%AF%DB%8C%D9%88-%D9%85%D8%B0%D8%A7%DA%A9%D8%B1%D9%87-%D8%AA%DA%A9%D9%86%DB%8C%DA%A9-%D9%87%D8%A7%DB%8C-%D9%85%D8%B0%D8%A7%DA%A9%D8%B1%D9%87-%D9%81%D8%A7%DB%8C%D9%84/)
+
 [آخرین دیدگاه‌ها و نظرات دوستان متممی | متمم](https://motamem.org/recentcomments/)
 
 - [اتاق خبر | درس تفکر سیستمی | متمم](https://motamem.org/%d8%a7%d8%aa%d8%a7%d9%82-%d8%ae%d8%a8%d8%b1-%d8%af%d8%b1%d8%b3-%d8%aa%d9%81%da%a9%d8%b1-%d8%b3%db%8c%d8%b3%d8%aa%d9%85%db%8c/)
