@@ -30,7 +30,7 @@ author: ["امیر"]
 ## ریاضی
 - [Wolfram|Alpha: Computational Intelligence](https://www.wolframalpha.com/)
 - [Symbolab Math Solver - Step by Step calculator](https://www.symbolab.com/)
-- [Fetching Title#ni7b](https://live.sympy.org/)
+- [Sympy Live](https://live.sympy.org/)
 - [GeoGebra - the world’s favorite, free math tools used by over 100 million students and teachers](https://www.geogebra.org/?lang=en)
 - [Derivative Calculator](https://www.derivative-calculator.net/)
 - [Integral Calculator](https://www.integral-calculator.com/)
