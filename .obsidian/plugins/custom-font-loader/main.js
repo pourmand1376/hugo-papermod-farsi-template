@@ -30,7 +30,8 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
   font: "None",
-  processed_font: ""
+  processed_font: "",
+  force_mode: false
 };
 function arrayBufferToBase64(buffer) {
   let binary = "";
@@ -83,13 +84,23 @@ var FontPlugin = class extends import_obsidian.Plugin {
           await this.process_font();
         } else {
           const content = await this.app.vault.adapter.read(css_font_path);
-          const cssString = `
+          let cssString = `
 					:root {
 						--font-default: ${font_family_name};
 						--default-font: ${font_family_name};
 						--font-family-editor: ${font_family_name};
+						--font-monospace-default: ${font_family_name},
+						--font-interface-override: ${font_family_name},
+						--font-text-override: ${font_family_name},
+						--font-monospace-override: ${font_family_name},	
 					}
 					`;
+          if (this.settings.force_mode)
+            cssString = cssString + `
+					* {
+						font-family: ${font_family_name} !important;
+					}
+						`;
           applyCss(content, "custom_font_base64");
           applyCss(cssString, "custom_font_general");
         }
@@ -105,7 +116,9 @@ var FontPlugin = class extends import_obsidian.Plugin {
     this.process_font();
     this.addSettingTab(new FontSettingTab(this.app, this));
   }
-  onunload() {
+  async onunload() {
+    applyCss("", "custom_font_base64");
+    applyCss("", "custom_font_general");
   }
   async loadSettings() {
     this.settings = Object.assign(
@@ -150,6 +163,14 @@ var FontSettingTab = class extends import_obsidian.PluginSettingTab {
       }
       dropdown.setValue(this.plugin.settings.font).onChange(async (value) => {
         this.plugin.settings.font = value;
+        await this.plugin.saveSettings();
+        await this.plugin.process_font();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Force Style").setDesc("This option should be used if you have installed a community theme and normal mode doesn't work").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.force_mode);
+      toggle.onChange(async (value) => {
+        this.plugin.settings.force_mode = value;
         await this.plugin.saveSettings();
         await this.plugin.process_font();
       });
