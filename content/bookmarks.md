@@ -7,6 +7,10 @@ author: ["امیر"]
 
 با خودم گفتم به جای‌ این که بوک‌مارک‌هام رو داخل مرورگر ذخیره کنم، اینجا ذخیره‌شون کنم. شاید بعداً بعضی‌هاشون رو دسته‌بندی کردم و با توضیحات در یک پست جداگانه منتشر کردم. 
 
+قبلاً هم پست مشابهی راجع به وبلاگ‌ها و کانال‌هایی که دنبال می‌کنم گذاشته بودم؛ اما این یکی خیلی کلی‌تر هست.  
+
+[کانال‌ها و وبلاگ‌های مورد علاقه‌ من | گاه‌نوشته‌های امیرپورمند](https://aprd.ir/my-favorite-blogs-and-channels/)
+
 ## ابزارهای مفید
 - [Shareable Online Calendar and Scheduling - Google Calendar](https://calendar.google.com/calendar/u/0/r/week?pli=1)
 - [Log in to Overleaf - Overleaf, Online LaTeX Editor](https://www.overleaf.com/project)
