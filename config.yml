@@ -77,8 +77,9 @@ params:
   # home-info mode
   homeInfoParams:
     Title: سلام امیر پورمند هستم
-    Content: >
-      اینجا افکارم رو به اشتراک می‌گذارم.
+    Content: |
+      اینجا افکارم رو به اشتراک می‌گذارم. \
+      برای مشاهده آخرین نظرات [اینجا](https://github.com/pourmand1376/hugo-papermod-farsi-template/discussions) کلیک کنید.
 
   socialIcons:
     - name: rss
