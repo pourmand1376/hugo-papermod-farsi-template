@@ -73,3 +73,9 @@ author: ["امیر"]
 - [اتاق خبر | درس‌های خودشناسی و شخصیت‌شناسی | متمم](https://motamem.org/%d8%a7%d8%aa%d8%a7%d9%82-%d8%ae%d8%a8%d8%b1-%d8%ae%d9%88%d8%af%d8%b4%d9%86%d8%a7%d8%b3%db%8c-%d8%b4%d8%ae%d8%b5%db%8c%d8%aa-%d8%b4%d9%86%d8%a7%d8%b3%db%8c/)
 - [سبک زندگی (اتاق خبر) | متمم](https://motamem.org/%d8%b3%d8%a8%da%a9-%d8%b2%d9%86%d8%af%da%af%db%8c-%d8%a7%d8%aa%d8%a7%d9%82-%d8%ae%d8%a8%d8%b1/)
 - [رفتارها و عادتهای فردی در زندگی - متمم](https://motamem.org/%d8%b1%d9%81%d8%aa%d8%a7%d8%b1%d9%87%d8%a7-%d9%88-%d8%b9%d8%a7%d8%af%d8%aa%d9%87%d8%a7%db%8c-%da%a9%d9%88%da%86%da%a9-%d8%b2%d9%86%d8%af%da%af%db%8c-%d9%85%d8%b9%d8%b1%d9%81%db%8c-%d8%af%d8%b1%d8%b3/)
+
+## وبلاگ‌ها
+- [THE PERSONAL MBA](https://personalmba.com/)
+- [Marginal REVOLUTION - Small Steps Toward A Much Better World](https://marginalrevolution.com/)
+- [Learn faster, Think better, and make Smart Decisions](https://fs.blog/)
+- [Paul Graham](http://www.paulgraham.com/)
