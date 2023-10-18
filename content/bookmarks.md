@@ -15,6 +15,7 @@ author: ["امیر"]
 - [Shareable Online Calendar and Scheduling - Google Calendar](https://calendar.google.com/calendar/u/0/r/week?pli=1)
 - [Log in to Overleaf - Overleaf, Online LaTeX Editor](https://www.overleaf.com/project)
 - [Wayback Machine](https://archive.org/)
+- [Remove Paywalls](https://archive.ph/)
 
 ## موزیک
 - [سانگ سرا - جهان موسیقی بی کلام](https://songsara.net/)
