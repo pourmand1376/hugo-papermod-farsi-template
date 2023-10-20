@@ -158,6 +158,10 @@ menu:
       name: جستجو
       url: /search/
       weight: 40
+    - identifier: podcast
+      name: پادکست
+      url: /podcast/
+      weight: 10
 
 languages:
   fa:
