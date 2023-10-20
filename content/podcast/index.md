@@ -18,5 +18,6 @@ cover:
 
 - [Spotify](https://open.spotify.com/show/6TPjftO0GVSh6ztwqqEUxM)
 - [Castbox](https://castbox.fm/ch/5618013)
+- گوگل پادکست (به زودی)
 
 لوگوی پادکست رو هم همسرم **با عشق** طراحی کرده. خودش هر بار که می‌بینه، ذوق می‌کنه. امیدوارم شما هم خوشتون بیاد. 
