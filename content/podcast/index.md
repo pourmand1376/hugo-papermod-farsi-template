@@ -15,4 +15,6 @@ cover: { "image": "podcast/AI_Station.png" }
 - [Spotify](https://open.spotify.com/show/6TPjftO0GVSh6ztwqqEUxM)
 - [Castbox](https://castbox.fm/ch/5618013)
 
+این هم لوگوی زیبای پادکست که زحمت طراحی‌اش رو همسرم کشیده :) 
+
 ![Logo](AI_Station.png)
