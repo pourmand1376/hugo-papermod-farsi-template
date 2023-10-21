@@ -13,7 +13,7 @@ date: 2023-10-20 00:00:00 +03:30
 
 قراره تو فصل اول یه سری مباحث مهم هوش‌مصنوعی رو با هم مرور کنیم و بعد از اون در فصل‌های بعد به روندها و اتفاقاتی که تو هوش مصنوعی می‌افته بپردازیم.
 
-<iframe src="https://castbox.fm/app/castbox/player/id5618013?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500"></iframe>
+<iframe src="https://castbox.fm/app/castbox/player/id5618013?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500" loading="lazy"></iframe>
 
 ### لینک‌ها
 
