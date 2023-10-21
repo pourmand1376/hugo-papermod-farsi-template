@@ -4,6 +4,7 @@ comments: true
 showtoc: false
 cover:
   image: podcast/AI_Station.png
+date: 2023-10-20 00:00:00 +03:30
 ---
 
 ### معرفی
