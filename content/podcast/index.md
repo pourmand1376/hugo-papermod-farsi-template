@@ -17,8 +17,13 @@ date: 2023-10-20 00:00:00 +03:30
 
 ### لینک‌ها
 
-- [Spotify](https://open.spotify.com/show/6TPjftO0GVSh6ztwqqEUxM)
-- [Castbox](https://castbox.fm/ch/5618013)
+<a href="https://open.spotify.com/show/6TPjftO0GVSh6ztwqqEUxM">
+    <img src="spotify.png" alt="Listen on Spotify" style="max-width: 200px; height: auto;">
+</a>
+<a href="https://castbox.fm/ch/5618013">
+    <img src="castbox.png" alt="Listen on Castbox" style="max-width: 200px; height: auto;">
+</a>
+
 - گوگل پادکست (به زودی)
 
-لوگوی پادکست رو هم همسرم **با عشق** طراحی کرده. خودش هر بار که می‌بینه، ذوق می‌کنه. امیدوارم شما هم خوشتون بیاد. 
+لوگوی پادکست رو هم همسرم **با عشق** طراحی کرده. خودش هر بار که می‌بینه، ذوق می‌کنه. امیدوارم شما هم خوشتون بیاد.
