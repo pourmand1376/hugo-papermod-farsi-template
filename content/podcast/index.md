@@ -13,8 +13,6 @@ date: 2023-10-20 00:00:00 +03:30
 
 قراره تو فصل اول یه سری مباحث و مفاهیم پایه‌ای مهم هوش‌مصنوعی رو با هم مرور کنیم و بعد از اون در فصل‌های بعد به روندها و اتفاقاتی که تو هوش مصنوعی می‌افته بپردازیم.
 
-<iframe src="https://castbox.fm/app/castbox/player/id5618013?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500" loading="lazy"></iframe>
-
 ### لینک‌ها
 
 <a href="https://open.spotify.com/show/6TPjftO0GVSh6ztwqqEUxM" target="_blank">
@@ -27,3 +25,5 @@ date: 2023-10-20 00:00:00 +03:30
 - گوگل پادکست (به زودی)
 
 لوگوی پادکست رو هم همسرم **با عشق** طراحی کرده. خودش هر بار که می‌بینه، ذوق می‌کنه. امیدوارم شما هم خوشتون بیاد.
+
+<iframe src="https://castbox.fm/app/castbox/player/id5618013?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500" loading="lazy"></iframe>
