@@ -26,7 +26,7 @@
   data-reactions-enabled="1"
   data-emit-metadata="0"
   data-input-position="top"
-  data-theme="https://aprd.ir/css/preferred_color_scheme.css"
+  data-theme="https://aprd.ir/css/preferred_color_scheme1.css"
   data-lang="fa"
   crossorigin="anonymous"
   async
@@ -38,12 +38,20 @@
   );
 
   // Set the value of the data-theme attribute to the value stored in localStorage
-  scriptElement.setAttribute("data-theme", localStorage.getItem("pref-theme"));
+  const theme = localStorage.getItem("pref-theme");
 
-  // Get the theme-toggle switch element
+let cssFile;
+if (theme === "dark") {
+  cssFile = "https://aprd.ir/css/shabnam_dark.css";
+} else {
+  cssFile = "https://aprd.ir/css/shabnam_light.css"; 
+}
+  scriptElement.setAttribute("data-theme", cssFile);
+
+  // // Get the theme-toggle switch element
   const themeToggleSwitch = document.querySelector("#theme-toggle");
 
-  // Add a click event listener to the switch
+  // // Add a click event listener to the switch
   themeToggleSwitch.addEventListener("click", function () {
     // Reload the JavaScript file by reloading the page
     location.reload();
