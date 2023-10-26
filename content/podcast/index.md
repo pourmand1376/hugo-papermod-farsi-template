@@ -16,13 +16,14 @@ date: 2023-10-20 00:00:00 +03:30
 ### لینک‌ها
 
 <a href="https://open.spotify.com/show/6TPjftO0GVSh6ztwqqEUxM" target="_blank">
-    <img src="spotify.png" alt="Listen on Spotify" style="max-width: 200px; height: auto;">
+    <img src="spotify.svg" alt="Listen on Spotify" style="width: 200px; height: auto;">
 </a>
 <a href="https://castbox.fm/ch/5618013" target="_blank">
-    <img src="castbox.png" alt="Listen on Castbox" style="max-width: 200px; height: auto;">
+    <img src="castbox.svg" alt="Listen on Castbox" style="width: 200px; height: auto;">
 </a>
-
-- گوگل پادکست (به زودی)
+<a href="https://podcasts.google.com/feed/aHR0cDovL3Jzcy5jYXN0Ym94LmZtL2V2ZXJlc3QvNDgwYzk3YTA3OTI1NGEwNmJhMzk2NzgzYTQ0ZjBhY2MueG1s" target="_blank">
+    <img src="googlepodcasts.svg" alt="Listen on Google Podcasts" style="width: 200px; height: auto;">
+</a>
 
 لوگوی پادکست رو هم همسرم **با عشق** طراحی کرده. خودش هر بار که می‌بینه، ذوق می‌کنه. امیدوارم شما هم خوشتون بیاد.
 
