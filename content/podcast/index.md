@@ -25,6 +25,10 @@ date: 2023-10-20 00:00:00 +03:30
     <img src="googlepodcasts.svg" alt="Listen on Google Podcasts" style="width: 200px; height: auto;">
 </a>
 
+<a href="https://rss.castbox.fm/everest/480c97a079254a06ba396783a44f0acc.xml" target="_blank">
+    <img src="rss.svg" alt="Subscribe RSS Feed" style="width: 200px; height: auto;">
+</a>
+
 لوگوی پادکست رو هم همسرم **با عشق** طراحی کرده. خودش هر بار که می‌بینه، ذوق می‌کنه. امیدوارم شما هم خوشتون بیاد.
 
 <iframe src="https://castbox.fm/app/castbox/player/id5618013?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500" loading="lazy"></iframe>
