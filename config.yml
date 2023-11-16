@@ -79,7 +79,8 @@ params:
     Title: سلام امیر پورمند هستم
     Content: |
       اینجا افکارم رو به اشتراک می‌گذارم. \
-      برای مشاهده آخرین نظرات [اینجا](https://github.com/pourmand1376/hugo-papermod-farsi-template/discussions) کلیک کنید.
+      برای مشاهده آخرین نظرات، [اینجا](https://github.com/pourmand1376/hugo-papermod-farsi-template/discussions) کلیک کنید. \
+       برای مشاهده وبلاگ انگلیسی، [اینجا](https://amirpourmand.ir) کلیک کنید.
 
   socialIcons:
     - name: rss
