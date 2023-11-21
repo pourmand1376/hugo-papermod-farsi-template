@@ -46,6 +46,7 @@ author: ["امیر"]
 - [Better than Yesterday](https://www.youtube.com/@BetterThanYesterday)
 - [Vertasium](https://www.youtube.com/@veritasium)
 - [Mohsen Namjoo](https://www.youtube.com/@officialmohsennamjoo)
+- [Last Week Tonight](https://www.youtube.com/@LastWeekTonight)
 
 ## کانال‌های استراحت و تفریح
 - [Country Life Vlog](https://youtube.com/@country_life_vlog?si=v2pnvo-OZs9wMuDp)
