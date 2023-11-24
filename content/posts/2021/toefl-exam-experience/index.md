@@ -1,10 +1,12 @@
 ---
 title: تجربه آزمون تافل
 date: 2021-11-30 07:00:47 +03:30
-# modified: 2020-10-07 10:49:47 +03:30
-tags: ["تافل", "تجربه", "آکادمیک"]
+fatags:
+  - تافل
+  - تجربه
+  - آکادمیک
 description: تجربیات من در آزمون تافل
-image: "toefl.png"
+image: toefl.png
 comments: true
 ---
 
