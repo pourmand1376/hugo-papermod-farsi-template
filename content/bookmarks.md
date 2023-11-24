@@ -11,6 +11,10 @@ author: ["امیر"]
 
 [کانال‌ها و وبلاگ‌های مورد علاقه‌ من | گاه‌نوشته‌های امیرپورمند](https://aprd.ir/my-favorite-blogs-and-channels/)
 
+### پست‌های مرتبط وبلاگ انگلیسی
+- [Machine Learning Blogs and Resources | Amir Pourmand](https://amirpourmand.ir/posts/2023/ml-blogs-and-resources/)
+- [Youtube Channels Which Talk about AI | Amir Pourmand](https://amirpourmand.ir/posts/2023/youtube-channels-about-ai/)
+- [Most Useful Sites and tools (All Online) | Amir Pourmand](https://amirpourmand.ir/posts/2021/useful-sites/)
 ## ابزارهای مفید
 - [Shareable Online Calendar and Scheduling - Google Calendar](https://calendar.google.com/calendar/u/0/r/week?pli=1)
 - [Log in to Overleaf - Overleaf, Online LaTeX Editor](https://www.overleaf.com/project)
