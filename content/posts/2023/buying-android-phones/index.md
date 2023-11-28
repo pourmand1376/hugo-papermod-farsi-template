@@ -115,9 +115,8 @@ comments: true
 
 انتخاب این که از کدوم مشورت بگیریم، با ماست. 
 
-این سایت هم برای مقایسه بین گوشی‌ها بد نیست، یه نگاهی بهش بندازید. 
+این دو تا سایت هم برای مقایسه بین گوشی‌ها بد نیستن، یه نگاهی بهشون بندازید. سایت دوم برای مقایسه دوربین گوشی‌ها خیلی خوبه.
 
 - [Phone comparisons | Compare cell phones side-by-side - Versus](https://versus.com/en/phone)
-
-
+- [DXOMARK - Quality Testing, Reviews](https://www.dxomark.com/)
 
