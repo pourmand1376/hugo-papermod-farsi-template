@@ -293,3 +293,4 @@ TocOpen: false
 - [راهنمای دوره‌ی آموزشی سربازی نخبگان - ویرگول](https://virgool.io/@foroughi.saeed/%D8%AF%D9%88%D8%B1%D9%87-%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D8%B3%D8%B1%D8%A8%D8%A7%D8%B2%DB%8C-%D9%86%D8%AE%D8%A8%DA%AF%D8%A7%D9%86-%DB%8C%D8%A7-%D9%85%D8%B5%D8%A7%D8%A6%D8%A8-%D9%85%D9%86-%D8%AE%D8%AF%D9%85%D8%AA-%D9%85%D9%82%D8%AF%D8%B3-ehghvsjcjlkg)
 - [تجربه سربازی نخبگان؛ چیزهایی که از قبل نمی‌دونستم | مَهدی جلالی](https://thisismaahdi.ir/elite-military-course/)
 - [تجربه آموزشی 01 - اردیبهشت‌ماه 1402](https://t.me/Tajrobe01_1402)
+- [راهنمای دوره‌ی آموزشی سربازی نخبگان](https://vrgl.ir/nUgEl)
