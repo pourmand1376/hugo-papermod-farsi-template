@@ -51,6 +51,7 @@ author: ["امیر"]
 - [Vertasium](https://www.youtube.com/@veritasium)
 - [Mohsen Namjoo](https://www.youtube.com/@officialmohsennamjoo)
 - [Last Week Tonight](https://www.youtube.com/@LastWeekTonight)
+- [The Infographics Show](https://www.youtube.com/@TheInfographicsShow)
 
 ## کانال‌های استراحت و تفریح
 - [Country Life Vlog](https://youtube.com/@country_life_vlog?si=v2pnvo-OZs9wMuDp)
