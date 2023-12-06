@@ -108,5 +108,7 @@ drive.mount('/content/drive')
 این Extension تبلیغات ویدئوها و کلی تبلیغات دیگه برای سایت‌های متفرقه رو حذف می‌کنه. 
 - [Enhancer for YouTube™](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle)
 این Extension هم تنظیمات کاربردی‌ای به ویدئو اضافه می‌کنه؛ مثلاً دکمه‌ای برای تعیین سرعت ویدئو (1.5x و 2x) داره یا این که می‌تونه صدای ویدئو رو boost کنه.
+- [Anti Adblock Detector](https://chromewebstore.google.com/detail/anti-adblock-detector/kjhdffcfinhkdfbbhjlfoadcdfgihmlp?hl=de)
+اخیراً یوتیوب اذیت می‌کنه و میگه نباید Adblock داشته باشیم. خب نمیشه که! این اکتنشن کاری می‌کنه که اون کد یوتیوب - که میگه چرا Adblock داری - رو غیرفعال کنیم. 
 
 در کل هم هنوز با خودم راجع به افزونه‌ها به توافق نرسیدم و نمی‌دونم در بلندمدت مفید (و در نتیجه اخلاقی) خواهند بود یا نه! 
