@@ -57,6 +57,7 @@ author: ["امیر"]
 - [Country Life Vlog](https://youtube.com/@country_life_vlog?si=v2pnvo-OZs9wMuDp)
 - [Temponaut Timelapse - YouTube](https://www.youtube.com/@Temponaut_Timelapse)
 - [The Timewriters - YouTube](https://www.youtube.com/@theTimewriters)
+- [DramatizeMe - YouTube](https://youtube.com/@DramatizeMe)
 ## بازی
 - [Minecraft](https://www.youtube.com/@Eyecraftmc/videos)
 - [ChunkBase](https://www.chunkbase.com/)
