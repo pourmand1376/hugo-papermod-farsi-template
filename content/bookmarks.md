@@ -53,6 +53,9 @@ author: ["امیر"]
 - [Last Week Tonight](https://www.youtube.com/@LastWeekTonight)
 - [The Infographics Show](https://www.youtube.com/@TheInfographicsShow)
 
+## کانال‌های تکنولوژی
+- [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)
+
 ## کانال‌های استراحت و تفریح
 - [Country Life Vlog](https://youtube.com/@country_life_vlog?si=v2pnvo-OZs9wMuDp)
 - [Temponaut Timelapse - YouTube](https://www.youtube.com/@Temponaut_Timelapse)
