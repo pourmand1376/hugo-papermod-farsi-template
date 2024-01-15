@@ -28,3 +28,9 @@ fatags:
 ویدئو در [آپارات](https://www.aparat.com/v/M4lTZ) و [یوتیوب](https://www.youtube.com/watch?v=oLvpB60v00M) منتشر شده. البته در همین صفحه هم می‌تونید ویدئو آپارات رو مستقیماً ببینید.
 
 <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/M4lTZ/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+
+
+### ناگفته‌ها
+ویدئو رو که مجدداً دیدم چند تا نکته به نظرم رسید که یکی یکی راجع بهشون توضیح میدم.  اولین نکته این که نیازه حتما کلید ssh رو از قبل بسازید که با روش من بتونید مخزن رو Clone کنید. این آموزش، آموزش مناسبی هست. [آموزش تنظیم کلید ssh برای گیت‌هاب](https://virgool.io/@aramrahmani/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AA%D9%86%D8%B8%DB%8C%D9%85-ssh-key-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%AF%DB%8C%D8%AA-frbvyidqnbmz)
+- 
+- 
