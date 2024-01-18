@@ -4,7 +4,7 @@ comments: false
 showtoc: false
 ---
 
-<img src="prof_pic.jpg#center" alt="Profile Image" width='300'>
+<img src="prof_pic.jpg#center" style="border-radius: 50px;" alt="Profile Image" width='300'>
 
 امیر پورمند هستم. پور(پسر)مند یعنی دارای پسر. احتمالا اجداد من زیاد پسر داشتند.
 
