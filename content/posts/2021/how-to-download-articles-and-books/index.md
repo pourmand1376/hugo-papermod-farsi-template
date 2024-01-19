@@ -30,6 +30,7 @@ comments: true
 - [OA.mg · Open Access for Everyone · Download and read over 240 million research papers](http://OA.mg)
 - [CORE – Aggregating the world’s open access research papers](http://core.ac.uk)
 - [ReadMedium - Read Translated Articles for Free!](https://readmedium.com)
+- [magnolia1234 / Bypass Paywalls Chrome Clean · GitLab](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
 ## مقاله
 یه سری مقالات که در [ارکایو](https://arxiv.org/) منتشر میشن و یه سری های دیگه open access هستند و بصورت رایگان قابل دانلود هستن. من اونها رو کار ندارم. برای دانلود بقیه مقالات دو تا راه دارید: استفاده از سایت‌های خارجی یا ایرانی. 
 ### سایت‌های خارجی
