@@ -55,7 +55,7 @@ author: ["امیر"]
 
 ## کانال‌های تکنولوژی
 - [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)
-
+- [DevOps Toolkit - YouTube](https://youtube.com/@DevOpsToolkit?si=q4GR6OzhEoz7bhk0)
 ## کانال‌های استراحت و تفریح
 - [Country Life Vlog](https://youtube.com/@country_life_vlog?si=v2pnvo-OZs9wMuDp)
 - [Temponaut Timelapse - YouTube](https://www.youtube.com/@Temponaut_Timelapse)
