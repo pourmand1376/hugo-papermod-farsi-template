@@ -87,7 +87,7 @@ cover:
 
 [GitHub - hkhojasteh/EN-FA-CS-Dictionary: An English-Persian Dictionary of Computer Science and Artificial Intelligence](https://github.com/hkhojasteh/EN-FA-CS-Dictionary)
 
-همچنین در [سایت ایران‌داک](https://dic.irandoc.ac.ir/) و [اینجا](https://sharif.edu/~kasaei/htmls/links.htm) لغت‌نامه وجود داره که پیوسته‌ آپدیت می‌شوند و می‌تونید برای ترجمه استفاده کنید. اگر هم روی املاء لغت‌ها حساس هستید، [فرهنگ املایی «ویراستاران»](https://emla.virastaran.net/) رو بررسی کنید. 
+همچنین در [سایت ایران‌داک](https://dic.irandoc.ac.ir/) و [اینجا](https://sharif.edu/~kasaei/htmls/links.htm) لغت‌نامه وجود داره که پیوسته‌ آپدیت می‌شوند و می‌تونید برای ترجمه استفاده کنید. اگر هم روی املاء لغت‌ها و درست‌نویسی حساس هستید، [فرهنگ املایی «ویراستاران»](https://emla.virastaran.net/) رو بررسی کنید. 
 
 - ترجیحا تمام افعال باید مجهول باشند! پس نباید بگید «ما فلان کار را کردیم» بلکه باید بگید «فلان کار انجام شد». بالاخره این قانون اکادمیک هست. ظاهرا علتش این هست که می‌خوان کار رو از کننده کار جدا کنند. این قانون رو همه انجام نمیدن و من پیپرهای زیادی رو دیدم که این قانون رو رعایت نمی‌کنند و میگن «ما این کار رو کردیم»؛ نمونه‌اش [پیپر YOLO](https://arxiv.org/abs/1506.02640).
 
