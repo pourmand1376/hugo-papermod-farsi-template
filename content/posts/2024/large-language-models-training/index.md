@@ -1,7 +1,6 @@
 ---
 title: مدل‌های زبانی بزرگ و نحوه آموزش آن‌ها
 date: 2024-01-30
-draft: true
 cover:
   image: chat-bot.jpg
 ---
