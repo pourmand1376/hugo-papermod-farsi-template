@@ -2,7 +2,7 @@
 title: مدل‌های زبانی بزرگ و نحوه آموزش آن‌ها
 date: 2024-01-30
 cover:
-  image: chat-bot.jpg
+  image: large-language-models-training/chat-bot.jpg
 ---
 
 ![](chat-bot.jpg)
