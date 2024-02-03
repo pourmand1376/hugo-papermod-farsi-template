@@ -24,6 +24,8 @@ author: ["امیر"]
 ## موزیک
 - [سانگ سرا - جهان موسیقی بی کلام](https://songsara.net/)
 
+## فیلم
+[WatchSeries HD | Watch Series Online free | TV Series](https://watchseries.mx/home)
 ## ابزارهای وب‌سایت
 - [Monitoring - IRAN](http://pourmand.netnegar.io/)  
 - [Monitoring Global](https://pourmand.cronitorstatus.com/)
