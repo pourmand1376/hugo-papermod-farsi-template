@@ -25,12 +25,10 @@ comments: true
 - [Anna’s Archive](https://www.annas-archive.org/)
 - [Ebookee: Free Download eBooks Search Engine!](https://ebookee.com/)
 - [PDF Drive - Search and download PDF files for free.](http://www.pdfdrive.com/)
-- [Unpaywall: An open database of 20 million free scholarly articles](https://unpaywall.org/)
 - [Get The Research](http://GetTheResearch.org)
 - [OA.mg · Open Access for Everyone · Download and read over 240 million research papers](http://OA.mg)
 - [CORE – Aggregating the world’s open access research papers](http://core.ac.uk)
-- [ReadMedium - Read Translated Articles for Free!](https://readmedium.com)
-- [magnolia1234 / Bypass Paywalls Chrome Clean · GitLab](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
+
 ## مقاله
 یه سری مقالات که در [ارکایو](https://arxiv.org/) منتشر میشن و یه سری های دیگه open access هستند و بصورت رایگان قابل دانلود هستن. من اونها رو کار ندارم. برای دانلود بقیه مقالات دو تا راه دارید: استفاده از سایت‌های خارجی یا ایرانی. 
 ### سایت‌های خارجی
@@ -64,5 +62,9 @@ comments: true
 
 لطفا اگر شما هم منبعی برای تهیه مقالات و کتاب‌ها میشناسید به اشتراک بذارید.
 
-پی‌نوشت: برای دانلود مقالات و کتاب‌های تحریمی یا اون‌هایی که اصطلاحاً Paywall دارند، می‌تونید از Extension زیر هم استفاده کنید. 
+پی‌نوشت: برای دانلود مقالات و خوندن سایت‌های تحریمی یا اون‌هایی که اصطلاحاً دیوار پرداخت یا Paywall دارند، می‌تونید از سایت‌ها یا Extensionهای زیر هم استفاده کنید. 
 - [Bypass Paywalls Chrome Clean](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
+- [Unpaywall: An open database of 20 million free scholarly articles](https://unpaywall.org/)
+- [ReadMedium - Read Translated Articles for Free!](https://readmedium.com)
+- [magnolia1234 / Bypass Paywalls Chrome Clean · GitLab](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean)
+- 
