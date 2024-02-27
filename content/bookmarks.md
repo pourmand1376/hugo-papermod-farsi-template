@@ -31,6 +31,7 @@ author: ["امیر"]
 - [Monitoring Global](https://pourmand.cronitorstatus.com/)
 - [Google Search Console](https://search.google.com/search-console/)
 - [Google Analytics](https://analytics.google.com/)
+- [تست سرعت و مانیتورینگ سایت از ایران](https://www.wakav.ir/)
 ## سایت‌های جالب و مفید
 - [Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map](https://www.flightradar24.com/)
 - [Discover Most Reviewed Places in your city](https://www.top-rated.online/) 
