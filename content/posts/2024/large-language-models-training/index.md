@@ -3,6 +3,10 @@ title: مدل‌های زبانی بزرگ و نحوه آموزش آن‌ها
 date: 2024-01-30
 cover:
   image: large-language-models-training/chat-bot.jpg
+fatags:
+  - آموزشی
+  - هوش_مصنوعی
+  - تکنولوژی
 ---
 
 ![](chat-bot.jpg)
