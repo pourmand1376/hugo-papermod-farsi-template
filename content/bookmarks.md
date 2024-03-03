@@ -21,6 +21,8 @@ author: ["امیر"]
 - [Wayback Machine](https://archive.org/)
 - [Remove Paywalls](https://archive.ph/)
 
+[Webcam test - Check camera online](https://webcammictest.com/): تست وب‌کم - میکروفن - هندزفری
+
 ## موزیک
 - [سانگ سرا - جهان موسیقی بی کلام](https://songsara.net/)
 
